@@ -1,0 +1,7 @@
+@charset "UTF-8";
+.wp-product_category_content .old_version_1{padding-top:5px;}
+.wp-product_category_content .old_version_1 ul li {float:left;background:url(../view/images/li-arrow.gif) no-repeat scroll 0 3px transparent;border-bottom:1px dashed #CCC;padding:0 0 4px 12px;width:100%;overflow:hidden;}
+.wp-product_category_content .old_version_1 ul li.lastline {border-bottom:none;}
+.wp-product_category_content .old_version_1 ul ul {display:none;}
+.wp-product_category_content .old_version_1 ul ul li {border-bottom:none;background:transparent;padding:0px;}
+
