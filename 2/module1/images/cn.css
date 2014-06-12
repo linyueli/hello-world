@@ -1,0 +1,90 @@
+.word {
+	FONT-SIZE: 9pt; WORD-SPACING: 1px; COLOR: #faedeb; LINE-HEIGHT: 16pt; FONT-FAMILY: "宋体"; LETTER-SPACING: 0px
+}
+A:link {
+	COLOR: #ffffff; FONT-STYLE: normal; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #ffffff; FONT-STYLE: normal; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ffff00; FONT-STYLE: normal; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #99ff00; FONT-STYLE: normal; TEXT-DECORATION: none
+}
+.input {
+	BORDER-RIGHT: #9a9999 1px solid; BORDER-TOP: #9a9999 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: #9a9999 1px solid; COLOR: #333333; BORDER-BOTTOM: #9a9999 1px solid; FONT-FAMILY: "宋体"; BACKGROUND-COLOR: #f7f7f7
+}
+.title {
+	FONT-SIZE: 10.5pt; FONT-FAMILY: "宋体"
+}
+.wordtext {
+	FONT-SIZE: 9pt; COLOR: #333333; LINE-HEIGHT: 15pt; FONT-FAMILY: "宋体"; LETTER-SPACING: 0.5pt
+}
+.help {
+	CURSOR: help
+}
+.hand {
+	CURSOR: hand
+}
+.crosshair {
+	CURSOR: crosshair
+}
+.text {
+	FONT-SIZE: 9pt; WORD-SPACING: 0px; CURSOR: text; LINE-HEIGHT: 11pt; FONT-FAMILY: "宋体"; LETTER-SPACING: 0px
+}
+.wait　 {
+	FONT-SIZE: 9pt; WORD-SPACING: 1px; CURSOR: wait; COLOR: #cccc00; LINE-HEIGHT: 15pt; FONT-FAMILY: "宋体"; LETTER-SPACING: 0px
+}
+.dorp {
+	FONT-SIZE: 9pt; FILTER: dropshadow(color=#CFDDBD,offx=1,offy=1,positive=1); WORD-SPACING: 2px; LETTER-SPACING: 2px
+}
+.default {
+	CURSOR: default
+}
+.ne-resize {
+	CURSOR: ne-resize
+}
+.e-resize {
+	CURSOR: e-resize
+}
+.n-resize {
+	CURSOR: n-resize
+}
+.nw-resize {
+	CURSOR: nw-resize
+}
+.w-resize {
+	CURSOR: w-resize
+}
+.sw-resize {
+	CURSOR: sw-resize
+}
+.s-resize {
+	CURSOR: s-resize
+}
+.auto {
+	CURSOR: auto
+}
+.shadow {
+	FONT-SIZE: 9pt; FILTER: Glow(Color=#000000, Strength=1); FONT-FAMILY: "宋体"
+}
+.overline {
+	FONT-SIZE: 9pt; COLOR: #666666; FONT-FAMILY: "宋体"; TEXT-DECORATION: overline
+}
+BODY {
+	SCROLLBAR-FACE-COLOR: #eeeeee; FONT-SIZE: 9pt; SCROLLBAR-HIGHLIGHT-COLOR: #b5b5b5; SCROLLBAR-SHADOW-COLOR: #b5b5b5; COLOR: #000000; SCROLLBAR-3DLIGHT-COLOR: #eeeeee; LINE-HEIGHT: 12pt; SCROLLBAR-ARROW-COLOR: #b5b5b5; FONT-FAMILY: "宋体"; SCROLLBAR-DARKSHADOW-COLOR: #eeeeee
+}
+TEXTAREA {
+	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 9pt; BORDER-LEFT-COLOR: #000000; BORDER-BOTTOM-WIDTH: 1px; BORDER-BOTTOM-COLOR: #000000; BORDER-TOP-COLOR: #000000; FONT-FAMILY: 宋体; BACKGROUND-COLOR: #efefef; BORDER-RIGHT-WIDTH: 1px; BORDER-RIGHT-COLOR: #000000
+}
+SELECT {
+	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 9pt; BORDER-LEFT-COLOR: #000000; BORDER-BOTTOM-WIDTH: 1px; BORDER-BOTTOM-COLOR: #000000; BORDER-TOP-COLOR: #000000; FONT-FAMILY: 宋体; BACKGROUND-COLOR: #efefef; BORDER-RIGHT-WIDTH: 1px; BORDER-RIGHT-COLOR: #000000
+}
+.small {
+	FONT-SIZE: 14px; COLOR: #000000; FONT-FAMILY: "宋体"
+}
+.worden {
+	FONT-SIZE: 8pt; COLOR: #ecccbf; FONT-FAMILY: "Arial", "Helvetica", "sans-serif"
+}

@@ -1,0 +1,1743 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0036)http:// -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+	
+	<title>module2</title>
+	<meta content="网站关键字" name="keywords">
+	<meta content="网站描述" name="description">
+		
+	<link rel="shortcut icon" href="favicon.ico" >
+
+		<link href="default.css" rel="stylesheet" type="text/css">
+
+<link href="title.css" rel="stylesheet" type="text/css"><link href="media.css" rel="stylesheet" type="text/css"><!--语言特殊的css-->
+</head>
+
+<body>
+	<script type="text/javascript" src="jquery-1.6.4.js"></script>
+	<script type="text/javascript" language="javascript" src="jquery.custom.js"></script>
+	<script type="text/javascript" language="javascript">
+	<!--
+    	//js版本url生成函数
+	function parseToURL(module,action,anotherparams){
+		var defaultparams = {"_m": module,"_a": action};
+	
+		var urlparams=$.extend({}, anotherparams, defaultparams);
+		var paramstr=$.param(urlparams);
+		return "http://index.php?"+paramstr;
+	}
+	
+	function getImageProcessType(){
+		     return 1;
+	}
+	
+	function parseToAdminURL(module,action,anotherparams){
+		var defaultparams={'_m':module,'_a':action,'domain':'personal-21',"SessionID":''}
+		var urlparams=$.extend({}, anotherparams, defaultparams);
+		var paramstr=$.param(urlparams);
+		return "http://admin/index.php?"+paramstr;
+	}
+	function getSiteCurLang(){return 'en';}
+	function getPreviewSiteCurLang(){return 'zh_CN';}
+	function relativeToAbsoluteURL(relativeurl,nostatic){
+		
+		if(nostatic=='1'){
+			return "http://"+relativeurl;
+		}else{
+			return "http://static.websiteonline.cn/"+relativeurl;
+		}
+	}
+	//图片、图文模块等loading效果优化
+	var wopoploadingImg = new Image();wopoploadingImg.src = relativeToAbsoluteURL('template/default/images/loading2.gif');
+	
+	function getSystemCurrentDomain(){return 'personal-21';}
+	
+	function getSystemSession(){return 'ibvm7ufipffl7v9kila7qai7o3';}
+	if($.browser.msie && ($.browser.version < 7)){
+					location.href = parseToURL("wp_frontpage","browser");
+						}
+	//-->
+	</script>
+	<script type="text/javascript" language="javascript" src="lab.js"></script>
+	<script type="text/javascript" language="javascript" src="wopop_all.js"></script>
+	<script type="text/javascript" language="javascript" src="jquery.cookie.js"></script>
+<script type="text/javascript" language="javascript" src="jquery.simplemodal.js"></script>
+<div id="page_set_css"><style>  /*layer07139B48FC89A69F8DDFBE867952E91B*/ .wp-diy-selecteda{width:auto;height:22px;-moz-border-radius:2px;-webkit-border-radius:2px;border-radius:2px;border:1px solid #b5b5b5;background:url(plugin/multilingual/styles/wihite/images/wp-link-input-bg.gif) repeat-x #FFF;}.wp-diy-selecteda-left{float:left;padding:0 5px;}.wp-diy-selecteda-button{float:right;}.wp-diy-selecteda-button a{display:block;width:14px;height:22px;overflow:hidden;background:url(plugin/multilingual/styles/wihite/images/wp-diy-selected-button.gif) no-repeat;}.wp-diy-selecteda-button a.disabled{background:url(plugin/multilingual/styles/wihite/images/wp-diy-selected-button2.gif) no-repeat;cursor:default;}.wp-diy-selecteda-content{margin-left:1px;background:#FFF;border:1px solid #b5b5b5;border-top:none;display:none;position:absolute;max-height:100px;overflow-y:auto;overflow-x:hidden;z-index:1111;}.wp-diy-selecteda-content ul li{height:22px;line-height:22px;text-indent:5px;}.wp-diy-selecteda-content ul li.local{background:#4d7cc3;color:#FFF;cursor:pointer;} /*layer07139B48FC89A69F8DDFBE867952E91B*/ </style></div>
+<div id="scroll_container" style="height: 596px;">
+	<div id="scroll_container_bg" style="background-color: transparent; height: 1080px; width: 100%; background-position: 50% 0%; background-repeat: repeat no-repeat;">&nbsp;</div>
+<script>
+(function(){
+var container=$('#scroll_container');
+var cvhgt = window.innerHeight || self.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+container.height(cvhgt);
+$('#scroll_container_bg').css('height',cvhgt);
+})();	
+</script>
+	<div id="canvas" style="width: 1002px; margin: 0px auto; height: 1000px;"><div id="layerFC5C93768D98CA6813D0EDB1015C60D9" type="title" class="cstlayer" style="left: 128px; top: 749px; position: absolute; z-index: 131; width: 57px; height: 36px;" mid="" deg="0"><div class="wp-title_content" style="word-wrap: break-word; padding: 0px; border-color: transparent; border-width: 0px; height: 36px; width: 54px; display: block; border-style: solid;"><a href="http://photo" utype="1#89"><span style="font-size: 24px; color: rgb(255, 255, 255); font-family: Microsoft YaHei;">相册</span></a></div>
+</div><div id="layerE71C58728CCBDD9C17C56BFAAAFF53B6" type="title" class="cstlayer" style="left: 79px; top: 608px; position: absolute; z-index: 132; width: 111px; height: 36px;" mid="" deg="0"><div class="wp-title_content" style="word-wrap: break-word; padding: 0px; border-color: transparent; border-width: 0px; height: 36px; width: 108px; display: block; border-style: solid;"><a href="http://Diary" utype="1#90"><span style="font-size: 24px; color: rgb(255, 255, 255); font-family: Microsoft YaHei;">心情日记</span></a></div>
+</div><div id="layer771AFD1D499FBD3D9DA9E073F645AD18" type="title" class="cstlayer" style="left: 889px; top: 331px; position: absolute; z-index: 123; width: 111px; height: 32px;" mid="" deg="0"><div class="wp-title_content" style="word-wrap: break-word; padding: 0px; border-color: transparent; border-width: 0px; height: 32px; width: 111px; display: block; border-style: solid;"><a href="http://About-us" utype="1#93"><span style="font-size: 24px; color: rgb(255, 255, 255); font-family: Microsoft YaHei;">关于我们</span></a></div>
+</div><div id="layerAE2EFA047FA5F187DB55186C49FFABD2" type="title" class="cstlayer" style="left: 725px; top: 331px; position: absolute; z-index: 127; width: 59px; height: 32px;" mid="" deg="0"><div class="wp-title_content" style="word-wrap: break-word; padding: 0px; border-color: transparent; border-width: 0px; height: 32px; width: 59px; display: block; border-style: solid;"><a href="http://Home" utype="1#91"><span style="font-size: 24px; color: rgb(255, 255, 255); font-family: Microsoft YaHei;">首页</span></a></div>
+</div><div id="layerCA2652D245F26711646983864E34D363" type="media" class="cstlayer" style="left: 0px; top: 659px; position: absolute; z-index: 116; width: 196px; height: 135px;" mid="" deg="0"><script>
+	function set_thumb_layerCA2652D245F26711646983864E34D363(obj) {
+		var callback=function(img){
+				img.show();
+				img.closest('.img_over').children('.imgloading').remove();
+				
+		}
+		$(obj).each(function() {
+			var img=$(this);
+			callback(img);
+		});      
+	}
+</script>
+<div class="wp-media_content" style="overflow: hidden; width: 196px; height: 135px; border-width: 0px; border-style: solid; padding: 0px;" type="0">
+<div class="img_over" style="overflow: hidden; border-color: transparent; border-width: 0px; width: 196px; height: 135px;">
+
+
+<a class="media_link" href="http://photo" target="_self">	
+<img onerror="set_thumb_layerCA2652D245F26711646983864E34D363(this);" onload="set_thumb_layerCA2652D245F26711646983864E34D363(this);" id="wp-media-image_layerCA2652D245F26711646983864E34D363" src="007_xoMo.gif" type="zoom" class="paragraph_image " style="width: 196px; height: 135px;">
+</a>	
+<div class="map_show_title" style="display:none; position: absolute;top:-24px; left:0px; float:right;">
+<span style="background:url(../%E5%BB%BA%E7%AB%99%E4%B9%8B%E6%98%9F%EF%BC%8D%E5%AE%8C%E5%85%A8%E5%85%8D%E8%B4%B9%E7%9A%84%E6%96%B0%E4%B8%80%E4%BB%A3%E6%99%BA%E8%83%BD%E5%BB%BA%E7%AB%99%E7%B3%BB%E7%BB%9F%20%E8%87%AA%E5%8A%A9%E5%BB%BA%E7%AB%99%20%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE_files/plugin/media/images/hotspot_ico_show_left.png) left no-repeat; color:#fff; font-size:9px; line-height:20px; height:24px; display:block; float:left; text-indent:5px; padding-right:3px;"></span>
+<div style="float:left;"><img src="hotspot_ico_show_right.png" width="3" height="24"></div>
+</div>
+ 
+</div>
+
+</div>
+<script>
+(function(){
+	var imgover=$('#wp-media-image_layerCA2652D245F26711646983864E34D363').closest('.img_over');
+	imgover.children('.imgloading').width(imgover.width()).height(imgover.height());
+})()	
+$(function(){			
+	var super_id='layerCA2652D245F26711646983864E34D363';
+	var dom_img=$("#"+super_id).find('.paragraph_image');
+	var left_img=parseInt(dom_img.css('left'));
+	var top_img=parseInt(dom_img.css('top'));
+	var width_img=parseInt(dom_img.css("width"));
+	var height_img=parseInt(dom_img.css("height"));
+	if(isNaN(left_img)){ left_img=0; }
+	if(isNaN(top_img)){ top_img=0; }
+	var ii=0;
+	$("#"+super_id).find(".wp_mapclass").each(function(){
+		var shape="rect";
+		shape=$(this).attr('shape');
+		if(shape != "circle"){
+			shape="rect";
+		}
+ 
+		var leftz=parseInt($(this).css("left"));
+		var topz=parseInt($(this).css("top"));
+		var widthz=parseInt($(this).css("width"));
+		var heightz=parseInt($(this).css("height"));
+		
+		if(shape != "circle"){
+			var coords='0,0,0,0';
+		}else{
+			var coords='0,0,0';
+		}		
+		if( (leftz+widthz) < left_img || (left_img+width_img) < leftz || (topz+heightz)< top_img || (top_img+height_img)<topz){
+		}else{
+			var cleft=0;
+			var ctop=0;
+			var r=0;
+			if(shape != "circle"){
+				cleft=leftz-left_img;
+				ctop=topz-top_img;
+				coords=cleft+','+ctop+','+(cleft+widthz)+','+(ctop+heightz);
+			}else{
+				r=widthz/2;
+				cleft=leftz-left_img+r;
+				ctop=topz-top_img+r;
+				coords=cleft+','+ctop+','+r;
+			}
+		}	
+		
+		//var classid=$(this).attr('id');
+		var classid="map_arear_"+ii;
+		ii++;
+		var mapd=$(this).parent().find("."+classid);
+		mapd.attr('coords',coords);
+		$(this).remove();
+		
+	});
+})
+</script>
+</div><div id="layerC403D09831B506A17D288400FE8100FB" type="media" class="cstlayer" style="left: 203px; top: 519px; position: absolute; z-index: 115; width: 393px; height: 275px;" mid="" deg="0"><script>
+	function set_thumb_layerC403D09831B506A17D288400FE8100FB(obj) {
+		var callback=function(img){
+				img.show();
+				img.closest('.img_over').children('.imgloading').remove();
+				
+		}
+		$(obj).each(function() {
+			var img=$(this);
+			callback(img);
+		});      
+	}
+</script>
+<div class="wp-media_content" style="overflow: hidden; width: 393px; height: 275px;" type="0">
+<div class="img_over" style="overflow: hidden; border-color: transparent; border-width: 0px; width: 393px; height: 275px;">
+
+
+<img onerror="set_thumb_layerC403D09831B506A17D288400FE8100FB(this);" onload="set_thumb_layerC403D09831B506A17D288400FE8100FB(this);" id="wp-media-image_layerC403D09831B506A17D288400FE8100FB" src="003_WUY9.jpg" type="zoom" class="paragraph_image " style="width: auto; height: 275px; top: 0px; left: -4px; position: relative;">
+<div class="map_show_title" style="display:none; position: absolute;top:-24px; left:0px; float:right;">
+<span style="background:url(../%E5%BB%BA%E7%AB%99%E4%B9%8B%E6%98%9F%EF%BC%8D%E5%AE%8C%E5%85%A8%E5%85%8D%E8%B4%B9%E7%9A%84%E6%96%B0%E4%B8%80%E4%BB%A3%E6%99%BA%E8%83%BD%E5%BB%BA%E7%AB%99%E7%B3%BB%E7%BB%9F%20%E8%87%AA%E5%8A%A9%E5%BB%BA%E7%AB%99%20%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE_files/plugin/media/images/hotspot_ico_show_left.png) left no-repeat; color:#fff; font-size:9px; line-height:20px; height:24px; display:block; float:left; text-indent:5px; padding-right:3px;"></span>
+<div style="float:left;"><img src="hotspot_ico_show_right.png" width="3" height="24"></div>
+</div>
+ 
+</div>
+
+</div>
+<script>
+(function(){
+	var imgover=$('#wp-media-image_layerC403D09831B506A17D288400FE8100FB').closest('.img_over');
+	imgover.children('.imgloading').width(imgover.width()).height(imgover.height());
+})()	
+$(function(){			
+	var super_id='layerC403D09831B506A17D288400FE8100FB';
+	var dom_img=$("#"+super_id).find('.paragraph_image');
+	var left_img=parseInt(dom_img.css('left'));
+	var top_img=parseInt(dom_img.css('top'));
+	var width_img=parseInt(dom_img.css("width"));
+	var height_img=parseInt(dom_img.css("height"));
+	if(isNaN(left_img)){ left_img=0; }
+	if(isNaN(top_img)){ top_img=0; }
+	var ii=0;
+	$("#"+super_id).find(".wp_mapclass").each(function(){
+		var shape="rect";
+		shape=$(this).attr('shape');
+		if(shape != "circle"){
+			shape="rect";
+		}
+ 
+		var leftz=parseInt($(this).css("left"));
+		var topz=parseInt($(this).css("top"));
+		var widthz=parseInt($(this).css("width"));
+		var heightz=parseInt($(this).css("height"));
+		
+		if(shape != "circle"){
+			var coords='0,0,0,0';
+		}else{
+			var coords='0,0,0';
+		}		
+		if( (leftz+widthz) < left_img || (left_img+width_img) < leftz || (topz+heightz)< top_img || (top_img+height_img)<topz){
+		}else{
+			var cleft=0;
+			var ctop=0;
+			var r=0;
+			if(shape != "circle"){
+				cleft=leftz-left_img;
+				ctop=topz-top_img;
+				coords=cleft+','+ctop+','+(cleft+widthz)+','+(ctop+heightz);
+			}else{
+				r=widthz/2;
+				cleft=leftz-left_img+r;
+				ctop=topz-top_img+r;
+				coords=cleft+','+ctop+','+r;
+			}
+		}	
+		
+		//var classid=$(this).attr('id');
+		var classid="map_arear_"+ii;
+		ii++;
+		var mapd=$(this).parent().find("."+classid);
+		mapd.attr('coords',coords);
+		$(this).remove();
+		
+	});
+})
+</script>
+</div><div id="layerB01886644BEE5967F64C52208BDAE2AE" type="media" class="cstlayer" style="left: 0px; top: 519px; position: absolute; z-index: 114; width: 196px; height: 133px;" mid="" deg="0"><script>
+	function set_thumb_layerB01886644BEE5967F64C52208BDAE2AE(obj) {
+		var callback=function(img){
+				img.show();
+				img.closest('.img_over').children('.imgloading').remove();
+				
+		}
+		$(obj).each(function() {
+			var img=$(this);
+			callback(img);
+		});      
+	}
+</script>
+<div class="wp-media_content" style="overflow: hidden; width: 196px; height: 133px; border-width: 0px; border-style: solid; padding: 0px;" type="0">
+<div class="img_over" style="overflow: hidden; border-color: transparent; border-width: 0px; width: 196px; height: 133px;">
+
+
+<a class="media_link" href="http://Diary" target="_self">	
+<img onerror="set_thumb_layerB01886644BEE5967F64C52208BDAE2AE(this);" onload="set_thumb_layerB01886644BEE5967F64C52208BDAE2AE(this);" id="wp-media-image_layerB01886644BEE5967F64C52208BDAE2AE" src="006_13l0.gif" type="zoom" class="paragraph_image " style="width: 196px; height: 133px;">
+</a>	
+<div class="map_show_title" style="display:none; position: absolute;top:-24px; left:0px; float:right;">
+<span style="background:url(../%E5%BB%BA%E7%AB%99%E4%B9%8B%E6%98%9F%EF%BC%8D%E5%AE%8C%E5%85%A8%E5%85%8D%E8%B4%B9%E7%9A%84%E6%96%B0%E4%B8%80%E4%BB%A3%E6%99%BA%E8%83%BD%E5%BB%BA%E7%AB%99%E7%B3%BB%E7%BB%9F%20%E8%87%AA%E5%8A%A9%E5%BB%BA%E7%AB%99%20%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE_files/plugin/media/images/hotspot_ico_show_left.png) left no-repeat; color:#fff; font-size:9px; line-height:20px; height:24px; display:block; float:left; text-indent:5px; padding-right:3px;"></span>
+<div style="float:left;"><img src="hotspot_ico_show_right.png" width="3" height="24"></div>
+</div>
+ 
+</div>
+
+</div>
+<script>
+(function(){
+	var imgover=$('#wp-media-image_layerB01886644BEE5967F64C52208BDAE2AE').closest('.img_over');
+	imgover.children('.imgloading').width(imgover.width()).height(imgover.height());
+})()	
+$(function(){			
+	var super_id='layerB01886644BEE5967F64C52208BDAE2AE';
+	var dom_img=$("#"+super_id).find('.paragraph_image');
+	var left_img=parseInt(dom_img.css('left'));
+	var top_img=parseInt(dom_img.css('top'));
+	var width_img=parseInt(dom_img.css("width"));
+	var height_img=parseInt(dom_img.css("height"));
+	if(isNaN(left_img)){ left_img=0; }
+	if(isNaN(top_img)){ top_img=0; }
+	var ii=0;
+	$("#"+super_id).find(".wp_mapclass").each(function(){
+		var shape="rect";
+		shape=$(this).attr('shape');
+		if(shape != "circle"){
+			shape="rect";
+		}
+ 
+		var leftz=parseInt($(this).css("left"));
+		var topz=parseInt($(this).css("top"));
+		var widthz=parseInt($(this).css("width"));
+		var heightz=parseInt($(this).css("height"));
+		
+		if(shape != "circle"){
+			var coords='0,0,0,0';
+		}else{
+			var coords='0,0,0';
+		}		
+		if( (leftz+widthz) < left_img || (left_img+width_img) < leftz || (topz+heightz)< top_img || (top_img+height_img)<topz){
+		}else{
+			var cleft=0;
+			var ctop=0;
+			var r=0;
+			if(shape != "circle"){
+				cleft=leftz-left_img;
+				ctop=topz-top_img;
+				coords=cleft+','+ctop+','+(cleft+widthz)+','+(ctop+heightz);
+			}else{
+				r=widthz/2;
+				cleft=leftz-left_img+r;
+				ctop=topz-top_img+r;
+				coords=cleft+','+ctop+','+r;
+			}
+		}	
+		
+		//var classid=$(this).attr('id');
+		var classid="map_arear_"+ii;
+		ii++;
+		var mapd=$(this).parent().find("."+classid);
+		mapd.attr('coords',coords);
+		$(this).remove();
+		
+	});
+})
+</script>
+</div><div id="layerC6C8EEEBA20B7B90F252999E6240AFFF" type="media" class="cstlayer" style="left: 807px; top: 239px; position: absolute; z-index: 113; width: 195px; height: 134px;" mid="" deg="0"><script>
+	function set_thumb_layerC6C8EEEBA20B7B90F252999E6240AFFF(obj) {
+		var callback=function(img){
+				img.show();
+				img.closest('.img_over').children('.imgloading').remove();
+				
+		}
+		$(obj).each(function() {
+			var img=$(this);
+			callback(img);
+		});      
+	}
+</script>
+<div class="wp-media_content" style="overflow: hidden; width: 195px; height: 134px; border-width: 0px; border-style: solid; padding: 0px;" type="0">
+<div class="img_over" style="overflow: hidden; border-color: transparent; border-width: 0px; width: 195px; height: 134px;">
+
+
+<a class="media_link" href="http://About-us" target="_self">	
+<img onerror="set_thumb_layerC6C8EEEBA20B7B90F252999E6240AFFF(this);" onload="set_thumb_layerC6C8EEEBA20B7B90F252999E6240AFFF(this);" id="wp-media-image_layerC6C8EEEBA20B7B90F252999E6240AFFF" src="005_m7in.gif" type="zoom" class="paragraph_image " style="width: auto; height: 134px; top: 0px; left: 0px; position: relative;">
+</a>	
+<div class="map_show_title" style="display:none; position: absolute;top:-24px; left:0px; float:right;">
+<span style="background:url(../%E5%BB%BA%E7%AB%99%E4%B9%8B%E6%98%9F%EF%BC%8D%E5%AE%8C%E5%85%A8%E5%85%8D%E8%B4%B9%E7%9A%84%E6%96%B0%E4%B8%80%E4%BB%A3%E6%99%BA%E8%83%BD%E5%BB%BA%E7%AB%99%E7%B3%BB%E7%BB%9F%20%E8%87%AA%E5%8A%A9%E5%BB%BA%E7%AB%99%20%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE_files/plugin/media/images/hotspot_ico_show_left.png) left no-repeat; color:#fff; font-size:9px; line-height:20px; height:24px; display:block; float:left; text-indent:5px; padding-right:3px;"></span>
+<div style="float:left;"><img src="hotspot_ico_show_right.png" width="3" height="24"></div>
+</div>
+ 
+</div>
+
+</div>
+<script>
+(function(){
+	var imgover=$('#wp-media-image_layerC6C8EEEBA20B7B90F252999E6240AFFF').closest('.img_over');
+	imgover.children('.imgloading').width(imgover.width()).height(imgover.height());
+})()	
+$(function(){			
+	var super_id='layerC6C8EEEBA20B7B90F252999E6240AFFF';
+	var dom_img=$("#"+super_id).find('.paragraph_image');
+	var left_img=parseInt(dom_img.css('left'));
+	var top_img=parseInt(dom_img.css('top'));
+	var width_img=parseInt(dom_img.css("width"));
+	var height_img=parseInt(dom_img.css("height"));
+	if(isNaN(left_img)){ left_img=0; }
+	if(isNaN(top_img)){ top_img=0; }
+	var ii=0;
+	$("#"+super_id).find(".wp_mapclass").each(function(){
+		var shape="rect";
+		shape=$(this).attr('shape');
+		if(shape != "circle"){
+			shape="rect";
+		}
+ 
+		var leftz=parseInt($(this).css("left"));
+		var topz=parseInt($(this).css("top"));
+		var widthz=parseInt($(this).css("width"));
+		var heightz=parseInt($(this).css("height"));
+		
+		if(shape != "circle"){
+			var coords='0,0,0,0';
+		}else{
+			var coords='0,0,0';
+		}		
+		if( (leftz+widthz) < left_img || (left_img+width_img) < leftz || (topz+heightz)< top_img || (top_img+height_img)<topz){
+		}else{
+			var cleft=0;
+			var ctop=0;
+			var r=0;
+			if(shape != "circle"){
+				cleft=leftz-left_img;
+				ctop=topz-top_img;
+				coords=cleft+','+ctop+','+(cleft+widthz)+','+(ctop+heightz);
+			}else{
+				r=widthz/2;
+				cleft=leftz-left_img+r;
+				ctop=topz-top_img+r;
+				coords=cleft+','+ctop+','+r;
+			}
+		}	
+		
+		//var classid=$(this).attr('id');
+		var classid="map_arear_"+ii;
+		ii++;
+		var mapd=$(this).parent().find("."+classid);
+		mapd.attr('coords',coords);
+		$(this).remove();
+		
+	});
+})
+</script>
+</div><div id="layer1D350A2F0D08F3D35094E5583CBDB428" type="media" class="cstlayer" style="left: 806px; top: 660.5px; position: absolute; z-index: 121; width: 196px; height: 135px;" mid="" deg="0"><script>
+	function set_thumb_layer1D350A2F0D08F3D35094E5583CBDB428(obj) {
+		var callback=function(img){
+				img.show();
+				img.closest('.img_over').children('.imgloading').remove();
+				
+		}
+		$(obj).each(function() {
+			var img=$(this);
+			callback(img);
+		});      
+	}
+</script>
+<div class="wp-media_content" style="overflow: hidden; width: 196px; height: 135px;" type="0">
+<div class="img_over" style="overflow: hidden; border-color: transparent; border-width: 0px; width: 196px; height: 135px;">
+
+
+<img onerror="set_thumb_layer1D350A2F0D08F3D35094E5583CBDB428(this);" onload="set_thumb_layer1D350A2F0D08F3D35094E5583CBDB428(this);" id="wp-media-image_layer1D350A2F0D08F3D35094E5583CBDB428" src="012_uPM0.gif" type="zoom" class="paragraph_image " style="width: 196px; height: 135px;">
+<div class="map_show_title" style="display:none; position: absolute;top:-24px; left:0px; float:right;">
+<span style="background:url(../%E5%BB%BA%E7%AB%99%E4%B9%8B%E6%98%9F%EF%BC%8D%E5%AE%8C%E5%85%A8%E5%85%8D%E8%B4%B9%E7%9A%84%E6%96%B0%E4%B8%80%E4%BB%A3%E6%99%BA%E8%83%BD%E5%BB%BA%E7%AB%99%E7%B3%BB%E7%BB%9F%20%E8%87%AA%E5%8A%A9%E5%BB%BA%E7%AB%99%20%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE_files/plugin/media/images/hotspot_ico_show_left.png) left no-repeat; color:#fff; font-size:9px; line-height:20px; height:24px; display:block; float:left; text-indent:5px; padding-right:3px;"></span>
+<div style="float:left;"><img src="hotspot_ico_show_right.png" width="3" height="24"></div>
+</div>
+ 
+</div>
+
+</div>
+<script>
+(function(){
+	var imgover=$('#wp-media-image_layer1D350A2F0D08F3D35094E5583CBDB428').closest('.img_over');
+	imgover.children('.imgloading').width(imgover.width()).height(imgover.height());
+})()	
+$(function(){			
+	var super_id='layer1D350A2F0D08F3D35094E5583CBDB428';
+	var dom_img=$("#"+super_id).find('.paragraph_image');
+	var left_img=parseInt(dom_img.css('left'));
+	var top_img=parseInt(dom_img.css('top'));
+	var width_img=parseInt(dom_img.css("width"));
+	var height_img=parseInt(dom_img.css("height"));
+	if(isNaN(left_img)){ left_img=0; }
+	if(isNaN(top_img)){ top_img=0; }
+	var ii=0;
+	$("#"+super_id).find(".wp_mapclass").each(function(){
+		var shape="rect";
+		shape=$(this).attr('shape');
+		if(shape != "circle"){
+			shape="rect";
+		}
+ 
+		var leftz=parseInt($(this).css("left"));
+		var topz=parseInt($(this).css("top"));
+		var widthz=parseInt($(this).css("width"));
+		var heightz=parseInt($(this).css("height"));
+		
+		if(shape != "circle"){
+			var coords='0,0,0,0';
+		}else{
+			var coords='0,0,0';
+		}		
+		if( (leftz+widthz) < left_img || (left_img+width_img) < leftz || (topz+heightz)< top_img || (top_img+height_img)<topz){
+		}else{
+			var cleft=0;
+			var ctop=0;
+			var r=0;
+			if(shape != "circle"){
+				cleft=leftz-left_img;
+				ctop=topz-top_img;
+				coords=cleft+','+ctop+','+(cleft+widthz)+','+(ctop+heightz);
+			}else{
+				r=widthz/2;
+				cleft=leftz-left_img+r;
+				ctop=topz-top_img+r;
+				coords=cleft+','+ctop+','+r;
+			}
+		}	
+		
+		//var classid=$(this).attr('id');
+		var classid="map_arear_"+ii;
+		ii++;
+		var mapd=$(this).parent().find("."+classid);
+		mapd.attr('coords',coords);
+		$(this).remove();
+		
+	});
+})
+</script>
+</div><div id="layer628EE38A2BC87218E19BCE8FF1AF9E95" type="media" class="cstlayer" style="left: 603px; top: 660.5px; position: absolute; z-index: 120; width: 196px; height: 273px;" mid="" deg="0"><script>
+	function set_thumb_layer628EE38A2BC87218E19BCE8FF1AF9E95(obj) {
+		var callback=function(img){
+				img.show();
+				img.closest('.img_over').children('.imgloading').remove();
+				
+		}
+		$(obj).each(function() {
+			var img=$(this);
+			callback(img);
+		});      
+	}
+</script>
+<div class="wp-media_content" style="overflow: hidden; width: 196px; height: 273px;" type="0">
+<div class="img_over" style="overflow: hidden; border-color: transparent; border-width: 0px; width: 196px; height: 273px;">
+
+
+<img onerror="set_thumb_layer628EE38A2BC87218E19BCE8FF1AF9E95(this);" onload="set_thumb_layer628EE38A2BC87218E19BCE8FF1AF9E95(this);" id="wp-media-image_layer628EE38A2BC87218E19BCE8FF1AF9E95" src="011_D3Vq.gif" type="zoom" class="paragraph_image " style="width: 196px; height: auto;">
+<div class="map_show_title" style="display:none; position: absolute;top:-24px; left:0px; float:right;">
+<span style="background:url(../%E5%BB%BA%E7%AB%99%E4%B9%8B%E6%98%9F%EF%BC%8D%E5%AE%8C%E5%85%A8%E5%85%8D%E8%B4%B9%E7%9A%84%E6%96%B0%E4%B8%80%E4%BB%A3%E6%99%BA%E8%83%BD%E5%BB%BA%E7%AB%99%E7%B3%BB%E7%BB%9F%20%E8%87%AA%E5%8A%A9%E5%BB%BA%E7%AB%99%20%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE_files/plugin/media/images/hotspot_ico_show_left.png) left no-repeat; color:#fff; font-size:9px; line-height:20px; height:24px; display:block; float:left; text-indent:5px; padding-right:3px;"></span>
+<div style="float:left;"><img src="hotspot_ico_show_right.png" width="3" height="24"></div>
+</div>
+ 
+</div>
+
+</div>
+<script>
+(function(){
+	var imgover=$('#wp-media-image_layer628EE38A2BC87218E19BCE8FF1AF9E95').closest('.img_over');
+	imgover.children('.imgloading').width(imgover.width()).height(imgover.height());
+})()	
+$(function(){			
+	var super_id='layer628EE38A2BC87218E19BCE8FF1AF9E95';
+	var dom_img=$("#"+super_id).find('.paragraph_image');
+	var left_img=parseInt(dom_img.css('left'));
+	var top_img=parseInt(dom_img.css('top'));
+	var width_img=parseInt(dom_img.css("width"));
+	var height_img=parseInt(dom_img.css("height"));
+	if(isNaN(left_img)){ left_img=0; }
+	if(isNaN(top_img)){ top_img=0; }
+	var ii=0;
+	$("#"+super_id).find(".wp_mapclass").each(function(){
+		var shape="rect";
+		shape=$(this).attr('shape');
+		if(shape != "circle"){
+			shape="rect";
+		}
+ 
+		var leftz=parseInt($(this).css("left"));
+		var topz=parseInt($(this).css("top"));
+		var widthz=parseInt($(this).css("width"));
+		var heightz=parseInt($(this).css("height"));
+		
+		if(shape != "circle"){
+			var coords='0,0,0,0';
+		}else{
+			var coords='0,0,0';
+		}		
+		if( (leftz+widthz) < left_img || (left_img+width_img) < leftz || (topz+heightz)< top_img || (top_img+height_img)<topz){
+		}else{
+			var cleft=0;
+			var ctop=0;
+			var r=0;
+			if(shape != "circle"){
+				cleft=leftz-left_img;
+				ctop=topz-top_img;
+				coords=cleft+','+ctop+','+(cleft+widthz)+','+(ctop+heightz);
+			}else{
+				r=widthz/2;
+				cleft=leftz-left_img+r;
+				ctop=topz-top_img+r;
+				coords=cleft+','+ctop+','+r;
+			}
+		}	
+		
+		//var classid=$(this).attr('id');
+		var classid="map_arear_"+ii;
+		ii++;
+		var mapd=$(this).parent().find("."+classid);
+		mapd.attr('coords',coords);
+		$(this).remove();
+		
+	});
+})
+</script>
+</div><div id="layer43DDE143BFC3906D359323632C48BB6E" type="media" class="cstlayer" style="left: 203px; top: 801.5px; position: absolute; z-index: 118; width: 193px; height: 133px;" mid="" deg="0"><script>
+	function set_thumb_layer43DDE143BFC3906D359323632C48BB6E(obj) {
+		var callback=function(img){
+				img.show();
+				img.closest('.img_over').children('.imgloading').remove();
+				
+		}
+		$(obj).each(function() {
+			var img=$(this);
+			callback(img);
+		});      
+	}
+</script>
+<div class="wp-media_content" style="overflow: hidden; width: 193px; height: 133px;" type="0">
+<div class="img_over" style="overflow: hidden; border-color: transparent; border-width: 0px; width: 193px; height: 133px;">
+
+
+<img onerror="set_thumb_layer43DDE143BFC3906D359323632C48BB6E(this);" onload="set_thumb_layer43DDE143BFC3906D359323632C48BB6E(this);" id="wp-media-image_layer43DDE143BFC3906D359323632C48BB6E" src="009_PJWZ.gif" type="zoom" class="paragraph_image " style="width: auto; height: 133px; top: 0px; left: -1px; position: relative;">
+<div class="map_show_title" style="display:none; position: absolute;top:-24px; left:0px; float:right;">
+<span style="background:url(../%E5%BB%BA%E7%AB%99%E4%B9%8B%E6%98%9F%EF%BC%8D%E5%AE%8C%E5%85%A8%E5%85%8D%E8%B4%B9%E7%9A%84%E6%96%B0%E4%B8%80%E4%BB%A3%E6%99%BA%E8%83%BD%E5%BB%BA%E7%AB%99%E7%B3%BB%E7%BB%9F%20%E8%87%AA%E5%8A%A9%E5%BB%BA%E7%AB%99%20%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE_files/plugin/media/images/hotspot_ico_show_left.png) left no-repeat; color:#fff; font-size:9px; line-height:20px; height:24px; display:block; float:left; text-indent:5px; padding-right:3px;"></span>
+<div style="float:left;"><img src="hotspot_ico_show_right.png" width="3" height="24"></div>
+</div>
+ 
+</div>
+
+</div>
+<script>
+(function(){
+	var imgover=$('#wp-media-image_layer43DDE143BFC3906D359323632C48BB6E').closest('.img_over');
+	imgover.children('.imgloading').width(imgover.width()).height(imgover.height());
+})()	
+$(function(){			
+	var super_id='layer43DDE143BFC3906D359323632C48BB6E';
+	var dom_img=$("#"+super_id).find('.paragraph_image');
+	var left_img=parseInt(dom_img.css('left'));
+	var top_img=parseInt(dom_img.css('top'));
+	var width_img=parseInt(dom_img.css("width"));
+	var height_img=parseInt(dom_img.css("height"));
+	if(isNaN(left_img)){ left_img=0; }
+	if(isNaN(top_img)){ top_img=0; }
+	var ii=0;
+	$("#"+super_id).find(".wp_mapclass").each(function(){
+		var shape="rect";
+		shape=$(this).attr('shape');
+		if(shape != "circle"){
+			shape="rect";
+		}
+ 
+		var leftz=parseInt($(this).css("left"));
+		var topz=parseInt($(this).css("top"));
+		var widthz=parseInt($(this).css("width"));
+		var heightz=parseInt($(this).css("height"));
+		
+		if(shape != "circle"){
+			var coords='0,0,0,0';
+		}else{
+			var coords='0,0,0';
+		}		
+		if( (leftz+widthz) < left_img || (left_img+width_img) < leftz || (topz+heightz)< top_img || (top_img+height_img)<topz){
+		}else{
+			var cleft=0;
+			var ctop=0;
+			var r=0;
+			if(shape != "circle"){
+				cleft=leftz-left_img;
+				ctop=topz-top_img;
+				coords=cleft+','+ctop+','+(cleft+widthz)+','+(ctop+heightz);
+			}else{
+				r=widthz/2;
+				cleft=leftz-left_img+r;
+				ctop=topz-top_img+r;
+				coords=cleft+','+ctop+','+r;
+			}
+		}	
+		
+		//var classid=$(this).attr('id');
+		var classid="map_arear_"+ii;
+		ii++;
+		var mapd=$(this).parent().find("."+classid);
+		mapd.attr('coords',coords);
+		$(this).remove();
+		
+	});
+})
+</script>
+</div><div id="layerD5C8495F8A2F285556A8CFE3F1885333" type="media" class="cstlayer" style="left: 404px; top: 801.5px; position: absolute; z-index: 119; width: 192px; height: 133px;" mid="" deg="0"><script>
+	function set_thumb_layerD5C8495F8A2F285556A8CFE3F1885333(obj) {
+		var callback=function(img){
+				img.show();
+				img.closest('.img_over').children('.imgloading').remove();
+				
+		}
+		$(obj).each(function() {
+			var img=$(this);
+			callback(img);
+		});      
+	}
+</script>
+<div class="wp-media_content" style="overflow: hidden; width: 192px; height: 133px;" type="0">
+<div class="img_over" style="overflow: hidden; border-color: transparent; border-width: 0px; width: 192px; height: 133px;">
+
+
+<img onerror="set_thumb_layerD5C8495F8A2F285556A8CFE3F1885333(this);" onload="set_thumb_layerD5C8495F8A2F285556A8CFE3F1885333(this);" id="wp-media-image_layerD5C8495F8A2F285556A8CFE3F1885333" src="010_DAce.gif" type="zoom" class="paragraph_image " style="width: auto; height: 133px; top: 0px; left: -1px; position: relative;">
+<div class="map_show_title" style="display:none; position: absolute;top:-24px; left:0px; float:right;">
+<span style="background:url(../%E5%BB%BA%E7%AB%99%E4%B9%8B%E6%98%9F%EF%BC%8D%E5%AE%8C%E5%85%A8%E5%85%8D%E8%B4%B9%E7%9A%84%E6%96%B0%E4%B8%80%E4%BB%A3%E6%99%BA%E8%83%BD%E5%BB%BA%E7%AB%99%E7%B3%BB%E7%BB%9F%20%E8%87%AA%E5%8A%A9%E5%BB%BA%E7%AB%99%20%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE_files/plugin/media/images/hotspot_ico_show_left.png) left no-repeat; color:#fff; font-size:9px; line-height:20px; height:24px; display:block; float:left; text-indent:5px; padding-right:3px;"></span>
+<div style="float:left;"><img src="hotspot_ico_show_right.png" width="3" height="24"></div>
+</div>
+ 
+</div>
+
+</div>
+<script>
+(function(){
+	var imgover=$('#wp-media-image_layerD5C8495F8A2F285556A8CFE3F1885333').closest('.img_over');
+	imgover.children('.imgloading').width(imgover.width()).height(imgover.height());
+})()	
+$(function(){			
+	var super_id='layerD5C8495F8A2F285556A8CFE3F1885333';
+	var dom_img=$("#"+super_id).find('.paragraph_image');
+	var left_img=parseInt(dom_img.css('left'));
+	var top_img=parseInt(dom_img.css('top'));
+	var width_img=parseInt(dom_img.css("width"));
+	var height_img=parseInt(dom_img.css("height"));
+	if(isNaN(left_img)){ left_img=0; }
+	if(isNaN(top_img)){ top_img=0; }
+	var ii=0;
+	$("#"+super_id).find(".wp_mapclass").each(function(){
+		var shape="rect";
+		shape=$(this).attr('shape');
+		if(shape != "circle"){
+			shape="rect";
+		}
+ 
+		var leftz=parseInt($(this).css("left"));
+		var topz=parseInt($(this).css("top"));
+		var widthz=parseInt($(this).css("width"));
+		var heightz=parseInt($(this).css("height"));
+		
+		if(shape != "circle"){
+			var coords='0,0,0,0';
+		}else{
+			var coords='0,0,0';
+		}		
+		if( (leftz+widthz) < left_img || (left_img+width_img) < leftz || (topz+heightz)< top_img || (top_img+height_img)<topz){
+		}else{
+			var cleft=0;
+			var ctop=0;
+			var r=0;
+			if(shape != "circle"){
+				cleft=leftz-left_img;
+				ctop=topz-top_img;
+				coords=cleft+','+ctop+','+(cleft+widthz)+','+(ctop+heightz);
+			}else{
+				r=widthz/2;
+				cleft=leftz-left_img+r;
+				ctop=topz-top_img+r;
+				coords=cleft+','+ctop+','+r;
+			}
+		}	
+		
+		//var classid=$(this).attr('id');
+		var classid="map_arear_"+ii;
+		ii++;
+		var mapd=$(this).parent().find("."+classid);
+		mapd.attr('coords',coords);
+		$(this).remove();
+		
+	});
+})
+</script>
+</div><div id="layer2141F1E38CF745B6D8A897DD3B5A14AA" type="media" class="cstlayer" style="left: 0px; top: 802px; position: absolute; z-index: 117; width: 196px; height: 133px;" mid="" deg="0"><script>
+	function set_thumb_layer2141F1E38CF745B6D8A897DD3B5A14AA(obj) {
+		var callback=function(img){
+				img.show();
+				img.closest('.img_over').children('.imgloading').remove();
+				
+		}
+		$(obj).each(function() {
+			var img=$(this);
+			callback(img);
+		});      
+	}
+</script>
+<div class="wp-media_content" style="overflow: hidden; width: 196px; height: 133px; border-width: 0px; border-style: solid; padding: 0px;" type="0">
+<div class="img_over" style="overflow: hidden; border-color: transparent; border-width: 0px; width: 196px; height: 133px;">
+
+
+<a class="media_link" href="http://Contact-us" target="_self">	
+<img onerror="set_thumb_layer2141F1E38CF745B6D8A897DD3B5A14AA(this);" onload="set_thumb_layer2141F1E38CF745B6D8A897DD3B5A14AA(this);" id="wp-media-image_layer2141F1E38CF745B6D8A897DD3B5A14AA" src="008_nkFZ.gif" type="zoom" class="paragraph_image " style="width: 196px; height: 133px;">
+</a>	
+<div class="map_show_title" style="display:none; position: absolute;top:-24px; left:0px; float:right;">
+<span style="background:url(../%E5%BB%BA%E7%AB%99%E4%B9%8B%E6%98%9F%EF%BC%8D%E5%AE%8C%E5%85%A8%E5%85%8D%E8%B4%B9%E7%9A%84%E6%96%B0%E4%B8%80%E4%BB%A3%E6%99%BA%E8%83%BD%E5%BB%BA%E7%AB%99%E7%B3%BB%E7%BB%9F%20%E8%87%AA%E5%8A%A9%E5%BB%BA%E7%AB%99%20%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE_files/plugin/media/images/hotspot_ico_show_left.png) left no-repeat; color:#fff; font-size:9px; line-height:20px; height:24px; display:block; float:left; text-indent:5px; padding-right:3px;"></span>
+<div style="float:left;"><img src="hotspot_ico_show_right.png" width="3" height="24"></div>
+</div>
+ 
+</div>
+
+</div>
+<script>
+(function(){
+	var imgover=$('#wp-media-image_layer2141F1E38CF745B6D8A897DD3B5A14AA').closest('.img_over');
+	imgover.children('.imgloading').width(imgover.width()).height(imgover.height());
+})()	
+$(function(){			
+	var super_id='layer2141F1E38CF745B6D8A897DD3B5A14AA';
+	var dom_img=$("#"+super_id).find('.paragraph_image');
+	var left_img=parseInt(dom_img.css('left'));
+	var top_img=parseInt(dom_img.css('top'));
+	var width_img=parseInt(dom_img.css("width"));
+	var height_img=parseInt(dom_img.css("height"));
+	if(isNaN(left_img)){ left_img=0; }
+	if(isNaN(top_img)){ top_img=0; }
+	var ii=0;
+	$("#"+super_id).find(".wp_mapclass").each(function(){
+		var shape="rect";
+		shape=$(this).attr('shape');
+		if(shape != "circle"){
+			shape="rect";
+		}
+ 
+		var leftz=parseInt($(this).css("left"));
+		var topz=parseInt($(this).css("top"));
+		var widthz=parseInt($(this).css("width"));
+		var heightz=parseInt($(this).css("height"));
+		
+		if(shape != "circle"){
+			var coords='0,0,0,0';
+		}else{
+			var coords='0,0,0';
+		}		
+		if( (leftz+widthz) < left_img || (left_img+width_img) < leftz || (topz+heightz)< top_img || (top_img+height_img)<topz){
+		}else{
+			var cleft=0;
+			var ctop=0;
+			var r=0;
+			if(shape != "circle"){
+				cleft=leftz-left_img;
+				ctop=topz-top_img;
+				coords=cleft+','+ctop+','+(cleft+widthz)+','+(ctop+heightz);
+			}else{
+				r=widthz/2;
+				cleft=leftz-left_img+r;
+				ctop=topz-top_img+r;
+				coords=cleft+','+ctop+','+r;
+			}
+		}	
+		
+		//var classid=$(this).attr('id');
+		var classid="map_arear_"+ii;
+		ii++;
+		var mapd=$(this).parent().find("."+classid);
+		mapd.attr('coords',coords);
+		$(this).remove();
+		
+	});
+})
+</script>
+</div><div id="layerD2819DB2B42413A4928C71F0A534D039" type="media" class="cstlayer" style="left: 604px; top: 240px; position: absolute; z-index: 112; width: 196px; height: 134px;" mid="" deg="0"><script>
+	function set_thumb_layerD2819DB2B42413A4928C71F0A534D039(obj) {
+		var callback=function(img){
+				img.show();
+				img.closest('.img_over').children('.imgloading').remove();
+				
+		}
+		$(obj).each(function() {
+			var img=$(this);
+			callback(img);
+		});      
+	}
+</script>
+<div class="wp-media_content" style="overflow: hidden; width: 196px; height: 134px; border-width: 0px; border-style: solid; padding: 0px;" type="0">
+<div class="img_over" style="overflow: hidden; border-color: transparent; border-width: 0px; width: 196px; height: 134px;">
+
+
+<a class="media_link" href="http://Home" target="_self">	
+<img onerror="set_thumb_layerD2819DB2B42413A4928C71F0A534D039(this);" onload="set_thumb_layerD2819DB2B42413A4928C71F0A534D039(this);" id="wp-media-image_layerD2819DB2B42413A4928C71F0A534D039" src="004_fOqC.gif" type="zoom" class="paragraph_image " style="width: 196px; height: 134px;">
+</a>	
+<div class="map_show_title" style="display:none; position: absolute;top:-24px; left:0px; float:right;">
+<span style="background:url(../%E5%BB%BA%E7%AB%99%E4%B9%8B%E6%98%9F%EF%BC%8D%E5%AE%8C%E5%85%A8%E5%85%8D%E8%B4%B9%E7%9A%84%E6%96%B0%E4%B8%80%E4%BB%A3%E6%99%BA%E8%83%BD%E5%BB%BA%E7%AB%99%E7%B3%BB%E7%BB%9F%20%E8%87%AA%E5%8A%A9%E5%BB%BA%E7%AB%99%20%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE_files/plugin/media/images/hotspot_ico_show_left.png) left no-repeat; color:#fff; font-size:9px; line-height:20px; height:24px; display:block; float:left; text-indent:5px; padding-right:3px;"></span>
+<div style="float:left;"><img src="hotspot_ico_show_right.png" width="3" height="24"></div>
+</div>
+ 
+</div>
+
+</div>
+<script>
+(function(){
+	var imgover=$('#wp-media-image_layerD2819DB2B42413A4928C71F0A534D039').closest('.img_over');
+	imgover.children('.imgloading').width(imgover.width()).height(imgover.height());
+})()	
+$(function(){			
+	var super_id='layerD2819DB2B42413A4928C71F0A534D039';
+	var dom_img=$("#"+super_id).find('.paragraph_image');
+	var left_img=parseInt(dom_img.css('left'));
+	var top_img=parseInt(dom_img.css('top'));
+	var width_img=parseInt(dom_img.css("width"));
+	var height_img=parseInt(dom_img.css("height"));
+	if(isNaN(left_img)){ left_img=0; }
+	if(isNaN(top_img)){ top_img=0; }
+	var ii=0;
+	$("#"+super_id).find(".wp_mapclass").each(function(){
+		var shape="rect";
+		shape=$(this).attr('shape');
+		if(shape != "circle"){
+			shape="rect";
+		}
+ 
+		var leftz=parseInt($(this).css("left"));
+		var topz=parseInt($(this).css("top"));
+		var widthz=parseInt($(this).css("width"));
+		var heightz=parseInt($(this).css("height"));
+		
+		if(shape != "circle"){
+			var coords='0,0,0,0';
+		}else{
+			var coords='0,0,0';
+		}		
+		if( (leftz+widthz) < left_img || (left_img+width_img) < leftz || (topz+heightz)< top_img || (top_img+height_img)<topz){
+		}else{
+			var cleft=0;
+			var ctop=0;
+			var r=0;
+			if(shape != "circle"){
+				cleft=leftz-left_img;
+				ctop=topz-top_img;
+				coords=cleft+','+ctop+','+(cleft+widthz)+','+(ctop+heightz);
+			}else{
+				r=widthz/2;
+				cleft=leftz-left_img+r;
+				ctop=topz-top_img+r;
+				coords=cleft+','+ctop+','+r;
+			}
+		}	
+		
+		//var classid=$(this).attr('id');
+		var classid="map_arear_"+ii;
+		ii++;
+		var mapd=$(this).parent().find("."+classid);
+		mapd.attr('coords',coords);
+		$(this).remove();
+		
+	});
+})
+</script>
+</div><div id="layerBF653E3D41F98EA159F848BDB182A7C0" type="media" class="cstlayer" style="left: 603px; top: 380px; position: absolute; z-index: 111; width: 399px; height: 273px;" mid="" deg="0"><script>
+	function set_thumb_layerBF653E3D41F98EA159F848BDB182A7C0(obj) {
+		var callback=function(img){
+				img.show();
+				img.closest('.img_over').children('.imgloading').remove();
+				
+		}
+		$(obj).each(function() {
+			var img=$(this);
+			callback(img);
+		});      
+	}
+</script>
+<div class="wp-media_content" style="overflow: hidden; width: 399px; height: 273px;" type="0">
+<div class="img_over" style="overflow: hidden; border-color: transparent; border-width: 0px; width: 399px; height: 273px;">
+
+
+<img onerror="set_thumb_layerBF653E3D41F98EA159F848BDB182A7C0(this);" onload="set_thumb_layerBF653E3D41F98EA159F848BDB182A7C0(this);" id="wp-media-image_layerBF653E3D41F98EA159F848BDB182A7C0" src="002_76CJ.jpg" type="zoom" class="paragraph_image " style="width: 399px; height: auto; top: 0px; left: 0px; position: relative;">
+<div class="map_show_title" style="display:none; position: absolute;top:-24px; left:0px; float:right;">
+<span style="background:url(../%E5%BB%BA%E7%AB%99%E4%B9%8B%E6%98%9F%EF%BC%8D%E5%AE%8C%E5%85%A8%E5%85%8D%E8%B4%B9%E7%9A%84%E6%96%B0%E4%B8%80%E4%BB%A3%E6%99%BA%E8%83%BD%E5%BB%BA%E7%AB%99%E7%B3%BB%E7%BB%9F%20%E8%87%AA%E5%8A%A9%E5%BB%BA%E7%AB%99%20%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE_files/plugin/media/images/hotspot_ico_show_left.png) left no-repeat; color:#fff; font-size:9px; line-height:20px; height:24px; display:block; float:left; text-indent:5px; padding-right:3px;"></span>
+<div style="float:left;"><img src="hotspot_ico_show_right.png" width="3" height="24"></div>
+</div>
+ 
+</div>
+
+</div>
+<script>
+(function(){
+	var imgover=$('#wp-media-image_layerBF653E3D41F98EA159F848BDB182A7C0').closest('.img_over');
+	imgover.children('.imgloading').width(imgover.width()).height(imgover.height());
+})()	
+$(function(){			
+	var super_id='layerBF653E3D41F98EA159F848BDB182A7C0';
+	var dom_img=$("#"+super_id).find('.paragraph_image');
+	var left_img=parseInt(dom_img.css('left'));
+	var top_img=parseInt(dom_img.css('top'));
+	var width_img=parseInt(dom_img.css("width"));
+	var height_img=parseInt(dom_img.css("height"));
+	if(isNaN(left_img)){ left_img=0; }
+	if(isNaN(top_img)){ top_img=0; }
+	var ii=0;
+	$("#"+super_id).find(".wp_mapclass").each(function(){
+		var shape="rect";
+		shape=$(this).attr('shape');
+		if(shape != "circle"){
+			shape="rect";
+		}
+ 
+		var leftz=parseInt($(this).css("left"));
+		var topz=parseInt($(this).css("top"));
+		var widthz=parseInt($(this).css("width"));
+		var heightz=parseInt($(this).css("height"));
+		
+		if(shape != "circle"){
+			var coords='0,0,0,0';
+		}else{
+			var coords='0,0,0';
+		}		
+		if( (leftz+widthz) < left_img || (left_img+width_img) < leftz || (topz+heightz)< top_img || (top_img+height_img)<topz){
+		}else{
+			var cleft=0;
+			var ctop=0;
+			var r=0;
+			if(shape != "circle"){
+				cleft=leftz-left_img;
+				ctop=topz-top_img;
+				coords=cleft+','+ctop+','+(cleft+widthz)+','+(ctop+heightz);
+			}else{
+				r=widthz/2;
+				cleft=leftz-left_img+r;
+				ctop=topz-top_img+r;
+				coords=cleft+','+ctop+','+r;
+			}
+		}	
+		
+		//var classid=$(this).attr('id');
+		var classid="map_arear_"+ii;
+		ii++;
+		var mapd=$(this).parent().find("."+classid);
+		mapd.attr('coords',coords);
+		$(this).remove();
+		
+	});
+})
+</script>
+</div><div id="layer24243167DF2AA205A75D989A3FFB7E50" type="media" class="cstlayer" style="left: 257px; top: 80px; position: absolute; z-index: 109; width: 473px; height: 69px;" mid="" deg="0"><script>
+	function set_thumb_layer24243167DF2AA205A75D989A3FFB7E50(obj) {
+		var callback=function(img){
+				img.show();
+				img.closest('.img_over').children('.imgloading').remove();
+				
+		}
+		$(obj).each(function() {
+			var img=$(this);
+			callback(img);
+		});      
+	}
+</script>
+<div class="wp-media_content" style="overflow: hidden; width: 473px; height: 69px;" type="0">
+<div class="img_over" style="overflow: hidden; border-color: transparent; border-width: 0px; width: 473px; height: 69px;">
+
+
+<img onerror="set_thumb_layer24243167DF2AA205A75D989A3FFB7E50(this);" onload="set_thumb_layer24243167DF2AA205A75D989A3FFB7E50(this);" id="wp-media-image_layer24243167DF2AA205A75D989A3FFB7E50" src="logo_FAJ9.gif" type="zoom" class="paragraph_image " style="width: 473px; height: 69px;">
+<div class="map_show_title" style="display:none; position: absolute;top:-24px; left:0px; float:right;">
+<span style="background:url(../%E5%BB%BA%E7%AB%99%E4%B9%8B%E6%98%9F%EF%BC%8D%E5%AE%8C%E5%85%A8%E5%85%8D%E8%B4%B9%E7%9A%84%E6%96%B0%E4%B8%80%E4%BB%A3%E6%99%BA%E8%83%BD%E5%BB%BA%E7%AB%99%E7%B3%BB%E7%BB%9F%20%E8%87%AA%E5%8A%A9%E5%BB%BA%E7%AB%99%20%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE_files/plugin/media/images/hotspot_ico_show_left.png) left no-repeat; color:#fff; font-size:9px; line-height:20px; height:24px; display:block; float:left; text-indent:5px; padding-right:3px;"></span>
+<div style="float:left;"><img src="hotspot_ico_show_right.png" width="3" height="24"></div>
+</div>
+ 
+</div>
+
+</div>
+<script>
+(function(){
+	var imgover=$('#wp-media-image_layer24243167DF2AA205A75D989A3FFB7E50').closest('.img_over');
+	imgover.children('.imgloading').width(imgover.width()).height(imgover.height());
+})()	
+$(function(){			
+	var super_id='layer24243167DF2AA205A75D989A3FFB7E50';
+	var dom_img=$("#"+super_id).find('.paragraph_image');
+	var left_img=parseInt(dom_img.css('left'));
+	var top_img=parseInt(dom_img.css('top'));
+	var width_img=parseInt(dom_img.css("width"));
+	var height_img=parseInt(dom_img.css("height"));
+	if(isNaN(left_img)){ left_img=0; }
+	if(isNaN(top_img)){ top_img=0; }
+	var ii=0;
+	$("#"+super_id).find(".wp_mapclass").each(function(){
+		var shape="rect";
+		shape=$(this).attr('shape');
+		if(shape != "circle"){
+			shape="rect";
+		}
+ 
+		var leftz=parseInt($(this).css("left"));
+		var topz=parseInt($(this).css("top"));
+		var widthz=parseInt($(this).css("width"));
+		var heightz=parseInt($(this).css("height"));
+		
+		if(shape != "circle"){
+			var coords='0,0,0,0';
+		}else{
+			var coords='0,0,0';
+		}		
+		if( (leftz+widthz) < left_img || (left_img+width_img) < leftz || (topz+heightz)< top_img || (top_img+height_img)<topz){
+		}else{
+			var cleft=0;
+			var ctop=0;
+			var r=0;
+			if(shape != "circle"){
+				cleft=leftz-left_img;
+				ctop=topz-top_img;
+				coords=cleft+','+ctop+','+(cleft+widthz)+','+(ctop+heightz);
+			}else{
+				r=widthz/2;
+				cleft=leftz-left_img+r;
+				ctop=topz-top_img+r;
+				coords=cleft+','+ctop+','+r;
+			}
+		}	
+		
+		//var classid=$(this).attr('id');
+		var classid="map_arear_"+ii;
+		ii++;
+		var mapd=$(this).parent().find("."+classid);
+		mapd.attr('coords',coords);
+		$(this).remove();
+		
+	});
+})
+</script>
+</div><div id="layerCE10EF74725DE7D3DA89E6A62A5E83A0" type="media" class="cstlayer" style="left: 0px; top: 239px; position: absolute; z-index: 110; width: 596px; height: 275px;" mid="" deg="0"><script>
+	function set_thumb_layerCE10EF74725DE7D3DA89E6A62A5E83A0(obj) {
+		var callback=function(img){
+				img.show();
+				img.closest('.img_over').children('.imgloading').remove();
+				
+		}
+		$(obj).each(function() {
+			var img=$(this);
+			callback(img);
+		});      
+	}
+</script>
+<div class="wp-media_content" style="overflow: hidden; width: 596px; height: 275px;" type="0">
+<div class="img_over" style="overflow: hidden; border-color: transparent; border-width: 0px; width: 596px; height: 275px;">
+
+
+<img onerror="set_thumb_layerCE10EF74725DE7D3DA89E6A62A5E83A0(this);" onload="set_thumb_layerCE10EF74725DE7D3DA89E6A62A5E83A0(this);" id="wp-media-image_layerCE10EF74725DE7D3DA89E6A62A5E83A0" src="001_Hehm.jpg" type="zoom" class="paragraph_image " style="width: auto; height: 275px; top: 0px; left: -1px; position: relative;">
+<div class="map_show_title" style="display:none; position: absolute;top:-24px; left:0px; float:right;">
+<span style="background:url(../%E5%BB%BA%E7%AB%99%E4%B9%8B%E6%98%9F%EF%BC%8D%E5%AE%8C%E5%85%A8%E5%85%8D%E8%B4%B9%E7%9A%84%E6%96%B0%E4%B8%80%E4%BB%A3%E6%99%BA%E8%83%BD%E5%BB%BA%E7%AB%99%E7%B3%BB%E7%BB%9F%20%E8%87%AA%E5%8A%A9%E5%BB%BA%E7%AB%99%20%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE_files/plugin/media/images/hotspot_ico_show_left.png) left no-repeat; color:#fff; font-size:9px; line-height:20px; height:24px; display:block; float:left; text-indent:5px; padding-right:3px;"></span>
+<div style="float:left;"><img src="hotspot_ico_show_right.png" width="3" height="24"></div>
+</div>
+ 
+</div>
+
+</div>
+<script>
+(function(){
+	var imgover=$('#wp-media-image_layerCE10EF74725DE7D3DA89E6A62A5E83A0').closest('.img_over');
+	imgover.children('.imgloading').width(imgover.width()).height(imgover.height());
+})()	
+$(function(){			
+	var super_id='layerCE10EF74725DE7D3DA89E6A62A5E83A0';
+	var dom_img=$("#"+super_id).find('.paragraph_image');
+	var left_img=parseInt(dom_img.css('left'));
+	var top_img=parseInt(dom_img.css('top'));
+	var width_img=parseInt(dom_img.css("width"));
+	var height_img=parseInt(dom_img.css("height"));
+	if(isNaN(left_img)){ left_img=0; }
+	if(isNaN(top_img)){ top_img=0; }
+	var ii=0;
+	$("#"+super_id).find(".wp_mapclass").each(function(){
+		var shape="rect";
+		shape=$(this).attr('shape');
+		if(shape != "circle"){
+			shape="rect";
+		}
+ 
+		var leftz=parseInt($(this).css("left"));
+		var topz=parseInt($(this).css("top"));
+		var widthz=parseInt($(this).css("width"));
+		var heightz=parseInt($(this).css("height"));
+		
+		if(shape != "circle"){
+			var coords='0,0,0,0';
+		}else{
+			var coords='0,0,0';
+		}		
+		if( (leftz+widthz) < left_img || (left_img+width_img) < leftz || (topz+heightz)< top_img || (top_img+height_img)<topz){
+		}else{
+			var cleft=0;
+			var ctop=0;
+			var r=0;
+			if(shape != "circle"){
+				cleft=leftz-left_img;
+				ctop=topz-top_img;
+				coords=cleft+','+ctop+','+(cleft+widthz)+','+(ctop+heightz);
+			}else{
+				r=widthz/2;
+				cleft=leftz-left_img+r;
+				ctop=topz-top_img+r;
+				coords=cleft+','+ctop+','+r;
+			}
+		}	
+		
+		//var classid=$(this).attr('id');
+		var classid="map_arear_"+ii;
+		ii++;
+		var mapd=$(this).parent().find("."+classid);
+		mapd.attr('coords',coords);
+		$(this).remove();
+		
+	});
+})
+</script>
+</div><div id="layerB6977F0EF25B5230746C79801DE28174" type="media" class="cstlayer" style="left: 452px; top: 837px; position: absolute; z-index: 139; width: 89px; height: 57px;" mid="" deg="0"><script>
+	function set_thumb_layerB6977F0EF25B5230746C79801DE28174(obj) {
+		var callback=function(img){
+				img.show();
+				img.closest('.img_over').children('.imgloading').remove();
+				
+		}
+		$(obj).each(function() {
+			var img=$(this);
+			callback(img);
+		});      
+	}
+</script>
+<div class="wp-media_content" style="overflow: hidden; width: 89px; height: 57px;" type="0">
+<div class="img_over" style="overflow: hidden; border-color: transparent; border-width: 0px; width: 89px; height: 57px;">
+
+
+<img onerror="set_thumb_layerB6977F0EF25B5230746C79801DE28174(this);" onload="set_thumb_layerB6977F0EF25B5230746C79801DE28174(this);" id="wp-media-image_layerB6977F0EF25B5230746C79801DE28174" src="001_y3Oe.png" type="zoom" class="paragraph_image " style="width: 89px; height: 57px;">
+<div class="map_show_title" style="display:none; position: absolute;top:-24px; left:0px; float:right;">
+<span style="background:url(../%E5%BB%BA%E7%AB%99%E4%B9%8B%E6%98%9F%EF%BC%8D%E5%AE%8C%E5%85%A8%E5%85%8D%E8%B4%B9%E7%9A%84%E6%96%B0%E4%B8%80%E4%BB%A3%E6%99%BA%E8%83%BD%E5%BB%BA%E7%AB%99%E7%B3%BB%E7%BB%9F%20%E8%87%AA%E5%8A%A9%E5%BB%BA%E7%AB%99%20%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE_files/plugin/media/images/hotspot_ico_show_left.png) left no-repeat; color:#fff; font-size:9px; line-height:20px; height:24px; display:block; float:left; text-indent:5px; padding-right:3px;"></span>
+<div style="float:left;"><img src="hotspot_ico_show_right.png" width="3" height="24"></div>
+</div>
+ 
+</div>
+
+</div>
+<script>
+(function(){
+	var imgover=$('#wp-media-image_layerB6977F0EF25B5230746C79801DE28174').closest('.img_over');
+	imgover.children('.imgloading').width(imgover.width()).height(imgover.height());
+})()	
+$(function(){			
+	var super_id='layerB6977F0EF25B5230746C79801DE28174';
+	var dom_img=$("#"+super_id).find('.paragraph_image');
+	var left_img=parseInt(dom_img.css('left'));
+	var top_img=parseInt(dom_img.css('top'));
+	var width_img=parseInt(dom_img.css("width"));
+	var height_img=parseInt(dom_img.css("height"));
+	if(isNaN(left_img)){ left_img=0; }
+	if(isNaN(top_img)){ top_img=0; }
+	var ii=0;
+	$("#"+super_id).find(".wp_mapclass").each(function(){
+		var shape="rect";
+		shape=$(this).attr('shape');
+		if(shape != "circle"){
+			shape="rect";
+		}
+ 
+		var leftz=parseInt($(this).css("left"));
+		var topz=parseInt($(this).css("top"));
+		var widthz=parseInt($(this).css("width"));
+		var heightz=parseInt($(this).css("height"));
+		
+		if(shape != "circle"){
+			var coords='0,0,0,0';
+		}else{
+			var coords='0,0,0';
+		}		
+		if( (leftz+widthz) < left_img || (left_img+width_img) < leftz || (topz+heightz)< top_img || (top_img+height_img)<topz){
+		}else{
+			var cleft=0;
+			var ctop=0;
+			var r=0;
+			if(shape != "circle"){
+				cleft=leftz-left_img;
+				ctop=topz-top_img;
+				coords=cleft+','+ctop+','+(cleft+widthz)+','+(ctop+heightz);
+			}else{
+				r=widthz/2;
+				cleft=leftz-left_img+r;
+				ctop=topz-top_img+r;
+				coords=cleft+','+ctop+','+r;
+			}
+		}	
+		
+		//var classid=$(this).attr('id');
+		var classid="map_arear_"+ii;
+		ii++;
+		var mapd=$(this).parent().find("."+classid);
+		mapd.attr('coords',coords);
+		$(this).remove();
+		
+	});
+})
+</script>
+</div><div id="layer2B4504452D4B59A3FDCEA3EF28B2040A" type="media" class="cstlayer" style="left: 871px; top: 696px; position: absolute; z-index: 136; width: 60px; height: 59px;" mid="" deg="0"><script>
+	function set_thumb_layer2B4504452D4B59A3FDCEA3EF28B2040A(obj) {
+		var callback=function(img){
+				img.show();
+				img.closest('.img_over').children('.imgloading').remove();
+				
+		}
+		$(obj).each(function() {
+			var img=$(this);
+			callback(img);
+		});      
+	}
+</script>
+<div class="wp-media_content" style="overflow: hidden; width: 60px; height: 59px;" type="0">
+<div class="img_over" style="overflow: hidden; border-color: transparent; border-width: 0px; width: 60px; height: 59px;">
+
+
+<img onerror="set_thumb_layer2B4504452D4B59A3FDCEA3EF28B2040A(this);" onload="set_thumb_layer2B4504452D4B59A3FDCEA3EF28B2040A(this);" id="wp-media-image_layer2B4504452D4B59A3FDCEA3EF28B2040A" src="icon_004_xZp4.png" type="zoom" class="paragraph_image " style="width: 60px; height: 59px;">
+<div class="map_show_title" style="display:none; position: absolute;top:-24px; left:0px; float:right;">
+<span style="background:url(../%E5%BB%BA%E7%AB%99%E4%B9%8B%E6%98%9F%EF%BC%8D%E5%AE%8C%E5%85%A8%E5%85%8D%E8%B4%B9%E7%9A%84%E6%96%B0%E4%B8%80%E4%BB%A3%E6%99%BA%E8%83%BD%E5%BB%BA%E7%AB%99%E7%B3%BB%E7%BB%9F%20%E8%87%AA%E5%8A%A9%E5%BB%BA%E7%AB%99%20%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE_files/plugin/media/images/hotspot_ico_show_left.png) left no-repeat; color:#fff; font-size:9px; line-height:20px; height:24px; display:block; float:left; text-indent:5px; padding-right:3px;"></span>
+<div style="float:left;"><img src="hotspot_ico_show_right.png" width="3" height="24"></div>
+</div>
+ 
+</div>
+
+</div>
+<script>
+(function(){
+	var imgover=$('#wp-media-image_layer2B4504452D4B59A3FDCEA3EF28B2040A').closest('.img_over');
+	imgover.children('.imgloading').width(imgover.width()).height(imgover.height());
+})()	
+$(function(){			
+	var super_id='layer2B4504452D4B59A3FDCEA3EF28B2040A';
+	var dom_img=$("#"+super_id).find('.paragraph_image');
+	var left_img=parseInt(dom_img.css('left'));
+	var top_img=parseInt(dom_img.css('top'));
+	var width_img=parseInt(dom_img.css("width"));
+	var height_img=parseInt(dom_img.css("height"));
+	if(isNaN(left_img)){ left_img=0; }
+	if(isNaN(top_img)){ top_img=0; }
+	var ii=0;
+	$("#"+super_id).find(".wp_mapclass").each(function(){
+		var shape="rect";
+		shape=$(this).attr('shape');
+		if(shape != "circle"){
+			shape="rect";
+		}
+ 
+		var leftz=parseInt($(this).css("left"));
+		var topz=parseInt($(this).css("top"));
+		var widthz=parseInt($(this).css("width"));
+		var heightz=parseInt($(this).css("height"));
+		
+		if(shape != "circle"){
+			var coords='0,0,0,0';
+		}else{
+			var coords='0,0,0';
+		}		
+		if( (leftz+widthz) < left_img || (left_img+width_img) < leftz || (topz+heightz)< top_img || (top_img+height_img)<topz){
+		}else{
+			var cleft=0;
+			var ctop=0;
+			var r=0;
+			if(shape != "circle"){
+				cleft=leftz-left_img;
+				ctop=topz-top_img;
+				coords=cleft+','+ctop+','+(cleft+widthz)+','+(ctop+heightz);
+			}else{
+				r=widthz/2;
+				cleft=leftz-left_img+r;
+				ctop=topz-top_img+r;
+				coords=cleft+','+ctop+','+r;
+			}
+		}	
+		
+		//var classid=$(this).attr('id');
+		var classid="map_arear_"+ii;
+		ii++;
+		var mapd=$(this).parent().find("."+classid);
+		mapd.attr('coords',coords);
+		$(this).remove();
+		
+	});
+})
+</script>
+</div><div id="layer72EDFB37C02AF55975776ABF6BC6899F" type="media" class="cstlayer" style="left: 874px; top: 838px; position: absolute; z-index: 137; width: 53px; height: 58px;" mid="" deg="0"><script>
+	function set_thumb_layer72EDFB37C02AF55975776ABF6BC6899F(obj) {
+		var callback=function(img){
+				img.show();
+				img.closest('.img_over').children('.imgloading').remove();
+				
+		}
+		$(obj).each(function() {
+			var img=$(this);
+			callback(img);
+		});      
+	}
+</script>
+<div class="wp-media_content" style="overflow: hidden; width: 53px; height: 58px;" type="0">
+<div class="img_over" style="overflow: hidden; border-color: transparent; border-width: 0px; width: 53px; height: 58px;">
+
+
+<img onerror="set_thumb_layer72EDFB37C02AF55975776ABF6BC6899F(this);" onload="set_thumb_layer72EDFB37C02AF55975776ABF6BC6899F(this);" id="wp-media-image_layer72EDFB37C02AF55975776ABF6BC6899F" src="icon_005_xJT2.png" type="zoom" class="paragraph_image " style="width: 53px; height: 58px;">
+<div class="map_show_title" style="display:none; position: absolute;top:-24px; left:0px; float:right;">
+<span style="background:url(../%E5%BB%BA%E7%AB%99%E4%B9%8B%E6%98%9F%EF%BC%8D%E5%AE%8C%E5%85%A8%E5%85%8D%E8%B4%B9%E7%9A%84%E6%96%B0%E4%B8%80%E4%BB%A3%E6%99%BA%E8%83%BD%E5%BB%BA%E7%AB%99%E7%B3%BB%E7%BB%9F%20%E8%87%AA%E5%8A%A9%E5%BB%BA%E7%AB%99%20%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE_files/plugin/media/images/hotspot_ico_show_left.png) left no-repeat; color:#fff; font-size:9px; line-height:20px; height:24px; display:block; float:left; text-indent:5px; padding-right:3px;"></span>
+<div style="float:left;"><img src="hotspot_ico_show_right.png" width="3" height="24"></div>
+</div>
+ 
+</div>
+
+</div>
+<script>
+(function(){
+	var imgover=$('#wp-media-image_layer72EDFB37C02AF55975776ABF6BC6899F').closest('.img_over');
+	imgover.children('.imgloading').width(imgover.width()).height(imgover.height());
+})()	
+$(function(){			
+	var super_id='layer72EDFB37C02AF55975776ABF6BC6899F';
+	var dom_img=$("#"+super_id).find('.paragraph_image');
+	var left_img=parseInt(dom_img.css('left'));
+	var top_img=parseInt(dom_img.css('top'));
+	var width_img=parseInt(dom_img.css("width"));
+	var height_img=parseInt(dom_img.css("height"));
+	if(isNaN(left_img)){ left_img=0; }
+	if(isNaN(top_img)){ top_img=0; }
+	var ii=0;
+	$("#"+super_id).find(".wp_mapclass").each(function(){
+		var shape="rect";
+		shape=$(this).attr('shape');
+		if(shape != "circle"){
+			shape="rect";
+		}
+ 
+		var leftz=parseInt($(this).css("left"));
+		var topz=parseInt($(this).css("top"));
+		var widthz=parseInt($(this).css("width"));
+		var heightz=parseInt($(this).css("height"));
+		
+		if(shape != "circle"){
+			var coords='0,0,0,0';
+		}else{
+			var coords='0,0,0';
+		}		
+		if( (leftz+widthz) < left_img || (left_img+width_img) < leftz || (topz+heightz)< top_img || (top_img+height_img)<topz){
+		}else{
+			var cleft=0;
+			var ctop=0;
+			var r=0;
+			if(shape != "circle"){
+				cleft=leftz-left_img;
+				ctop=topz-top_img;
+				coords=cleft+','+ctop+','+(cleft+widthz)+','+(ctop+heightz);
+			}else{
+				r=widthz/2;
+				cleft=leftz-left_img+r;
+				ctop=topz-top_img+r;
+				coords=cleft+','+ctop+','+r;
+			}
+		}	
+		
+		//var classid=$(this).attr('id');
+		var classid="map_arear_"+ii;
+		ii++;
+		var mapd=$(this).parent().find("."+classid);
+		mapd.attr('coords',coords);
+		$(this).remove();
+		
+	});
+})
+</script>
+</div><div id="layerD7483F9E9A3797C688190B10AABA76CF" type="media" class="cstlayer" style="left: 266px; top: 837px; position: absolute; z-index: 140; width: 60px; height: 58px;" mid="" deg="0"><script>
+	function set_thumb_layerD7483F9E9A3797C688190B10AABA76CF(obj) {
+		var callback=function(img){
+				img.show();
+				img.closest('.img_over').children('.imgloading').remove();
+				
+		}
+		$(obj).each(function() {
+			var img=$(this);
+			callback(img);
+		});      
+	}
+</script>
+<div class="wp-media_content" style="overflow: hidden; width: 60px; height: 58px;" type="0">
+<div class="img_over" style="overflow: hidden; border-color: transparent; border-width: 0px; width: 60px; height: 58px;">
+
+
+<img onerror="set_thumb_layerD7483F9E9A3797C688190B10AABA76CF(this);" onload="set_thumb_layerD7483F9E9A3797C688190B10AABA76CF(this);" id="wp-media-image_layerD7483F9E9A3797C688190B10AABA76CF" src="icon_002_4MW5.png" type="zoom" class="paragraph_image " style="width: 60px; height: 58px;">
+<div class="map_show_title" style="display:none; position: absolute;top:-24px; left:0px; float:right;">
+<span style="background:url(../%E5%BB%BA%E7%AB%99%E4%B9%8B%E6%98%9F%EF%BC%8D%E5%AE%8C%E5%85%A8%E5%85%8D%E8%B4%B9%E7%9A%84%E6%96%B0%E4%B8%80%E4%BB%A3%E6%99%BA%E8%83%BD%E5%BB%BA%E7%AB%99%E7%B3%BB%E7%BB%9F%20%E8%87%AA%E5%8A%A9%E5%BB%BA%E7%AB%99%20%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE_files/plugin/media/images/hotspot_ico_show_left.png) left no-repeat; color:#fff; font-size:9px; line-height:20px; height:24px; display:block; float:left; text-indent:5px; padding-right:3px;"></span>
+<div style="float:left;"><img src="hotspot_ico_show_right.png" width="3" height="24"></div>
+</div>
+ 
+</div>
+
+</div>
+<script>
+(function(){
+	var imgover=$('#wp-media-image_layerD7483F9E9A3797C688190B10AABA76CF').closest('.img_over');
+	imgover.children('.imgloading').width(imgover.width()).height(imgover.height());
+})()	
+$(function(){			
+	var super_id='layerD7483F9E9A3797C688190B10AABA76CF';
+	var dom_img=$("#"+super_id).find('.paragraph_image');
+	var left_img=parseInt(dom_img.css('left'));
+	var top_img=parseInt(dom_img.css('top'));
+	var width_img=parseInt(dom_img.css("width"));
+	var height_img=parseInt(dom_img.css("height"));
+	if(isNaN(left_img)){ left_img=0; }
+	if(isNaN(top_img)){ top_img=0; }
+	var ii=0;
+	$("#"+super_id).find(".wp_mapclass").each(function(){
+		var shape="rect";
+		shape=$(this).attr('shape');
+		if(shape != "circle"){
+			shape="rect";
+		}
+ 
+		var leftz=parseInt($(this).css("left"));
+		var topz=parseInt($(this).css("top"));
+		var widthz=parseInt($(this).css("width"));
+		var heightz=parseInt($(this).css("height"));
+		
+		if(shape != "circle"){
+			var coords='0,0,0,0';
+		}else{
+			var coords='0,0,0';
+		}		
+		if( (leftz+widthz) < left_img || (left_img+width_img) < leftz || (topz+heightz)< top_img || (top_img+height_img)<topz){
+		}else{
+			var cleft=0;
+			var ctop=0;
+			var r=0;
+			if(shape != "circle"){
+				cleft=leftz-left_img;
+				ctop=topz-top_img;
+				coords=cleft+','+ctop+','+(cleft+widthz)+','+(ctop+heightz);
+			}else{
+				r=widthz/2;
+				cleft=leftz-left_img+r;
+				ctop=topz-top_img+r;
+				coords=cleft+','+ctop+','+r;
+			}
+		}	
+		
+		//var classid=$(this).attr('id');
+		var classid="map_arear_"+ii;
+		ii++;
+		var mapd=$(this).parent().find("."+classid);
+		mapd.attr('coords',coords);
+		$(this).remove();
+		
+	});
+})
+</script>
+</div><div id="layer4424C6C7DFF965FD1D76B230825CD609" type="media" class="cstlayer" style="left: 806px; top: 804px; position: absolute; z-index: 122; width: 196px; height: 131px;" mid="" deg="0"><script>
+	function set_thumb_layer4424C6C7DFF965FD1D76B230825CD609(obj) {
+		var callback=function(img){
+				img.show();
+				img.closest('.img_over').children('.imgloading').remove();
+				
+		}
+		$(obj).each(function() {
+			var img=$(this);
+			callback(img);
+		});      
+	}
+</script>
+<div class="wp-media_content" style="overflow: hidden; width: 196px; height: 131px;" type="0">
+<div class="img_over" style="overflow: hidden; border-color: transparent; border-width: 0px; width: 196px; height: 131px;">
+
+
+<img onerror="set_thumb_layer4424C6C7DFF965FD1D76B230825CD609(this);" onload="set_thumb_layer4424C6C7DFF965FD1D76B230825CD609(this);" id="wp-media-image_layer4424C6C7DFF965FD1D76B230825CD609" src="013_vJrw.gif" type="zoom" class="paragraph_image " style="width: 196px; height: auto; top: 0px; left: 0px; position: relative;">
+<div class="map_show_title" style="display:none; position: absolute;top:-24px; left:0px; float:right;">
+<span style="background:url(../%E5%BB%BA%E7%AB%99%E4%B9%8B%E6%98%9F%EF%BC%8D%E5%AE%8C%E5%85%A8%E5%85%8D%E8%B4%B9%E7%9A%84%E6%96%B0%E4%B8%80%E4%BB%A3%E6%99%BA%E8%83%BD%E5%BB%BA%E7%AB%99%E7%B3%BB%E7%BB%9F%20%E8%87%AA%E5%8A%A9%E5%BB%BA%E7%AB%99%20%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE_files/plugin/media/images/hotspot_ico_show_left.png) left no-repeat; color:#fff; font-size:9px; line-height:20px; height:24px; display:block; float:left; text-indent:5px; padding-right:3px;"></span>
+<div style="float:left;"><img src="hotspot_ico_show_right.png" width="3" height="24"></div>
+</div>
+ 
+</div>
+
+</div>
+<script>
+(function(){
+	var imgover=$('#wp-media-image_layer4424C6C7DFF965FD1D76B230825CD609').closest('.img_over');
+	imgover.children('.imgloading').width(imgover.width()).height(imgover.height());
+})()	
+$(function(){			
+	var super_id='layer4424C6C7DFF965FD1D76B230825CD609';
+	var dom_img=$("#"+super_id).find('.paragraph_image');
+	var left_img=parseInt(dom_img.css('left'));
+	var top_img=parseInt(dom_img.css('top'));
+	var width_img=parseInt(dom_img.css("width"));
+	var height_img=parseInt(dom_img.css("height"));
+	if(isNaN(left_img)){ left_img=0; }
+	if(isNaN(top_img)){ top_img=0; }
+	var ii=0;
+	$("#"+super_id).find(".wp_mapclass").each(function(){
+		var shape="rect";
+		shape=$(this).attr('shape');
+		if(shape != "circle"){
+			shape="rect";
+		}
+ 
+		var leftz=parseInt($(this).css("left"));
+		var topz=parseInt($(this).css("top"));
+		var widthz=parseInt($(this).css("width"));
+		var heightz=parseInt($(this).css("height"));
+		
+		if(shape != "circle"){
+			var coords='0,0,0,0';
+		}else{
+			var coords='0,0,0';
+		}		
+		if( (leftz+widthz) < left_img || (left_img+width_img) < leftz || (topz+heightz)< top_img || (top_img+height_img)<topz){
+		}else{
+			var cleft=0;
+			var ctop=0;
+			var r=0;
+			if(shape != "circle"){
+				cleft=leftz-left_img;
+				ctop=topz-top_img;
+				coords=cleft+','+ctop+','+(cleft+widthz)+','+(ctop+heightz);
+			}else{
+				r=widthz/2;
+				cleft=leftz-left_img+r;
+				ctop=topz-top_img+r;
+				coords=cleft+','+ctop+','+r;
+			}
+		}	
+		
+		//var classid=$(this).attr('id');
+		var classid="map_arear_"+ii;
+		ii++;
+		var mapd=$(this).parent().find("."+classid);
+		mapd.attr('coords',coords);
+		$(this).remove();
+		
+	});
+})
+</script>
+</div><div id="layerFDA7C17A8F9FE4DDB8B6656AF3C19E33" type="title" class="cstlayer" style="left: 80px; top: 892px; position: absolute; z-index: 124; width: 115px; height: 36px;" mid="" deg="0"><div class="wp-title_content" style="word-wrap: break-word; padding: 0px; border-color: transparent; border-width: 0px; height: 36px; width: 115px; display: block; border-style: solid;"><a href="http://Contact-us" utype="1#88"><span style="font-size: 24px; color: rgb(255, 255, 255); font-family: Microsoft YaHei;">联系方式</span></a></div>
+</div><div id="layer219E92DFBE2502A9DDDB65A914FCAE9A" type="media" class="cstlayer" style="left: 658px; top: 756px; position: absolute; z-index: 138; width: 80px; height: 78px;" mid="" deg="0"><script>
+	function set_thumb_layer219E92DFBE2502A9DDDB65A914FCAE9A(obj) {
+		var callback=function(img){
+				img.show();
+				img.closest('.img_over').children('.imgloading').remove();
+				
+		}
+		$(obj).each(function() {
+			var img=$(this);
+			callback(img);
+		});      
+	}
+</script>
+<div class="wp-media_content" style="overflow: hidden; width: 80px; height: 78px;" type="0">
+<div class="img_over" style="overflow: hidden; border-color: transparent; border-width: 0px; width: 80px; height: 78px;">
+
+
+<img onerror="set_thumb_layer219E92DFBE2502A9DDDB65A914FCAE9A(this);" onload="set_thumb_layer219E92DFBE2502A9DDDB65A914FCAE9A(this);" id="wp-media-image_layer219E92DFBE2502A9DDDB65A914FCAE9A" src="icon_003_zMbw.png" type="zoom" class="paragraph_image " style="width: 80px; height: 78px;">
+<div class="map_show_title" style="display:none; position: absolute;top:-24px; left:0px; float:right;">
+<span style="background:url(../%E5%BB%BA%E7%AB%99%E4%B9%8B%E6%98%9F%EF%BC%8D%E5%AE%8C%E5%85%A8%E5%85%8D%E8%B4%B9%E7%9A%84%E6%96%B0%E4%B8%80%E4%BB%A3%E6%99%BA%E8%83%BD%E5%BB%BA%E7%AB%99%E7%B3%BB%E7%BB%9F%20%E8%87%AA%E5%8A%A9%E5%BB%BA%E7%AB%99%20%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE_files/plugin/media/images/hotspot_ico_show_left.png) left no-repeat; color:#fff; font-size:9px; line-height:20px; height:24px; display:block; float:left; text-indent:5px; padding-right:3px;"></span>
+<div style="float:left;"><img src="hotspot_ico_show_right.png" width="3" height="24"></div>
+</div>
+ 
+</div>
+
+</div>
+<script>
+(function(){
+	var imgover=$('#wp-media-image_layer219E92DFBE2502A9DDDB65A914FCAE9A').closest('.img_over');
+	imgover.children('.imgloading').width(imgover.width()).height(imgover.height());
+})()	
+$(function(){			
+	var super_id='layer219E92DFBE2502A9DDDB65A914FCAE9A';
+	var dom_img=$("#"+super_id).find('.paragraph_image');
+	var left_img=parseInt(dom_img.css('left'));
+	var top_img=parseInt(dom_img.css('top'));
+	var width_img=parseInt(dom_img.css("width"));
+	var height_img=parseInt(dom_img.css("height"));
+	if(isNaN(left_img)){ left_img=0; }
+	if(isNaN(top_img)){ top_img=0; }
+	var ii=0;
+	$("#"+super_id).find(".wp_mapclass").each(function(){
+		var shape="rect";
+		shape=$(this).attr('shape');
+		if(shape != "circle"){
+			shape="rect";
+		}
+ 
+		var leftz=parseInt($(this).css("left"));
+		var topz=parseInt($(this).css("top"));
+		var widthz=parseInt($(this).css("width"));
+		var heightz=parseInt($(this).css("height"));
+		
+		if(shape != "circle"){
+			var coords='0,0,0,0';
+		}else{
+			var coords='0,0,0';
+		}		
+		if( (leftz+widthz) < left_img || (left_img+width_img) < leftz || (topz+heightz)< top_img || (top_img+height_img)<topz){
+		}else{
+			var cleft=0;
+			var ctop=0;
+			var r=0;
+			if(shape != "circle"){
+				cleft=leftz-left_img;
+				ctop=topz-top_img;
+				coords=cleft+','+ctop+','+(cleft+widthz)+','+(ctop+heightz);
+			}else{
+				r=widthz/2;
+				cleft=leftz-left_img+r;
+				ctop=topz-top_img+r;
+				coords=cleft+','+ctop+','+r;
+			}
+		}	
+		
+		//var classid=$(this).attr('id');
+		var classid="map_arear_"+ii;
+		ii++;
+		var mapd=$(this).parent().find("."+classid);
+		mapd.attr('coords',coords);
+		$(this).remove();
+		
+	});
+})
+</script>
+</div>	</div>
+  <script>
+$('#copyright2').css('left',($('#canvas').width()-$('#copyright2').width())/2);
+</script>
+</div>
+	<input type="hidden" id="page_id" name="page_id" value="104">
+	<script type="text/javascript" language="javascript" src="heightAdapt.js"></script>
+<script type="text/javascript">
+<!--
+//解决ugilify压缩的问题
+var b;
+ 
+
+$(function(){
+	$(document).triggerHandler('lastexec');
+})
+$(window).load(function(){
+	var heightadaptel=$("#canvas").find(".cstlayer[type='article_detail'],.cstlayer[type='product_detail']");
+	if(heightadaptel.length){
+		wp_heightAdapt(heightadaptel);
+		window.scroll_container_adjust();
+	}
+});
+//-->
+</script>
+
+
+<!--//wp-mobile_navigate end-->
+	<script type="text/javascript" language="javascript" src="fullcollumn.js"></script>
+	<script type="text/javascript" language="javascript" src="common.js"></script>
+	<script type="text/javascript" language="javascript" src="jquery.rotateutility.js"></script>
+	<script type="text/javascript" language="javascript" src="ierotate.js"></script>
+		
+	
+
+ 
+</body></html>

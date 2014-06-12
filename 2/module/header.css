@@ -1,0 +1,72 @@
+#header{width:100%; height:85px;  padding:0px; margin:0 auto; border-bottom:1px solid #d7d7d7; background-color:#FFF; z-index:9999;  }
+	.hpcnt{width:1067px; height:60px; margin:0 auto; padding:0; overflow:hidden;}
+	.org{width:100%;height:28px;display:inline-block;background-color:#f15433; background:url(/images/header.jpg) top center repeat-x transparent;}
+	.logo{width:260px; height:38px; float:left; background:url(/images/indexbg.png) 0 -12px no-repeat; margin-right:70px; cursor:pointer;}
+	.menu{width:504px; height:54px; float:left; margin:0 13px 0 0; padding:0;}
+		.menu li{float:left;width:55px; height:54px; cursor:pointer; text-align:center; line-height:25px; color:#4c4c4c; font-weight:bold; font-size:14px;}
+		.menu li.sel, .menu li:hover{border-bottom:3px solid #f15433; color:#f15433;}
+	.loginbox{float:right;width:95px; height:28px; background:url(/images/indexbg.png) -705px 0px no-repeat; margin:0 10px 0 0; padding:0;}
+		.loginbox li{width:47px; height:28px; cursor:pointer; float:left;}
+		.loginbox li.lft{margin-right:1px;}
+		.loginbox li.rft{cursor:pointer;}
+		.loginbox li.lft:hover{background:url(/images/indexbg.png) -705px -56px no-repeat;}
+		.loginbox li.rft:hover{background:url(/images/indexbg.png) -753px -56px no-repeat;}
+	.smallicon{width:28px;height:28px;float:left;background:url(/images/indexbg.png) -772px -116px no-repeat; cursor:pointer;}
+	/**************2013-07-02******************/
+	.sinalogo, .accenter, .logout{float:left; width:28px; height:28px; display:inline-block; margin:0 5px; cursor:pointer;}
+	.sinalogo{background:url(/images/indexbg.png) -772px -116px no-repeat; }
+	.sinalogo:hover{background:url(/images/sina.png) center center no-repeat; }
+	.accenter{background:url(/images/indexbg.png) -215px -742px no-repeat;}
+	.accenter:hover{background:url(/images/indexbg.png) -215px -772px no-repeat;}
+	.fl{float:left!important;}
+	
+	.logout{background:url(/images/indexbg.png) -272px -742px no-repeat;}
+	.logout:hover{background:url(/images/indexbg.png) -272px -772px no-repeat;}
+	.wlcwrds{position:absolute;width:auto; height:20px; line-height:20px; text-align:left; margin-top:-20px; margin-left:59.3%; margin-left:56.3%\9;*margin-left:-155px;*margin-top:-25px; }
+	.wlcwrds a{font-size:12px; color:#999; text-decoration: underline;}
+	.wlcwrds span{color:#f15433;}
+	/**************2013-07-02******************/
+	/**************2013-07-04******************/
+	.sweixin{float:right; width:28px; height:28px; margin:0 2px; background:url(/images/wblogo.jpg) -28px -28px no-repeat; cursor:pointer; display:inline-block;}
+	.sqq{float:right; width:28px; height:28px; margin:0 2px; background:url(/images/wblogo.jpg) 0 -28px no-repeat; cursor:pointer; display:inline-block;}
+	.sweibo{float:right; width:28px; height:28px; margin:0 2px; background:url(/images/wblogo.jpg) -56px -28px no-repeat; cursor:pointer; display:inline-block;}
+	.markinfo{width:109px; height:109px; background:url(/images/ewm.png) left top no-repeat; position:absolute; margin-top:30px; margin-left:855px; text-align:center; padding:22px 15px 15px 15px; display: none; *margin-left:68px;}
+	.markinfo2{width:109px; height:109px; background:url(/images/ewm2.png) left top no-repeat; position:absolute; margin-top:-144px; margin-left:176px; text-align:center; padding:15px 15px 22px 15px; display: none; *margin-left:-55px;}
+		.markinfo img, .markinfo2 img{width:109px!important; height:109px!important; border:0;}
+
+	.sweixingray{float:right; width:28px; height:28px; margin:0 2px; background:url(/images/wblogo.jpg) -28px 0 no-repeat; cursor:pointer; display:inline-block;}
+	.sweixingray:hover{float:right; width:28px; height:28px; margin:0 2px; background:url(/images/wblogo.jpg) -28px -28px no-repeat; cursor:pointer; display:inline-block;}
+	.sqqgray{float:right; width:28px; height:28px; margin:0 2px; background:url(/images/wblogo.jpg) 0 0 no-repeat; cursor:pointer; display:inline-block;}
+	.sqqgray:hover{float:right; width:28px; height:28px; margin:0 2px; background:url(/images/wblogo.jpg) 0 -28px no-repeat; cursor:pointer; display:inline-block;}
+	.sweibogray{float:right; width:28px; height:28px; margin:0 2px; background:url(/images/wblogo.jpg) -56px 0 no-repeat; cursor:pointer; display:inline-block;}
+	.sweibogray:hover{float:right; width:28px; height:28px; margin:0 2px; background:url(/images/wblogo.jpg) -56px -28px no-repeat; cursor:pointer; display:inline-block;}
+	/**************2013-07-04******************/
+
+#footer{width:100%; height:auto; border-top:1px solid #D7D7D7; padding-top:20px; margin:0;padding-bottom:15px;float:left; }
+	.footerdetail{width:980px; height:auto; margin:0 auto; padding:0; overflow:hidden;}
+		.footerdetail li{float:left; width:326px; height:auto; margin:0; padding:0;}
+			.footerdetail li dl{width:100%; height:auto; margin:0; padding:0;}
+				.footerdetail li dl.telinfo{margin-left:80px; width:246px;}
+				.footerdetail li dl dt{width:100%; height:25px; line-height:25px; text-align:left; font-size:14px; color:#666; }
+				.footerdetail li dl dt.f12{text-align:right; font-size:12px; color:#666;}
+				.footerdetail li dl dd.tele{font-family:"Georgia"; font-size:28px; line-height:30px; text-align:left; padding:0; margin:20px 0 0 0;}
+				.footerdetail li dl dd.smalllogo{text-align:right; margin-top:3px;}
+				.footerdetail li dl dd.smalllogo img{width:28px; height:28px; cursor:pointer; border:0;}
+				.mt22{margin-top:22px;}
+				.footerdetail li dl dd .cndns{float:left; width:73px; height:23px; cursor:pointer; padding-right:13px; border-right:1px solid #e9e9e9; background:url(/images/cndns.png) left top no-repeat;}
+				.footerdetail li dl dd .sitestar{float:left; width:187px; height:23px; cursor:pointer; margin-left:15px; background:url(/images/sitestar.png) left top no-repeat;}
+				.mr10{margin-right:10px;}
+
+.noshow{display:none;}
+
+.chat_index{position:fixed; right:10px; bottom:10px;}
+.chat_index a{ display:block; width:66px; height:66px; font-family:'Microsoft yahei'; font-size:12px; background:url(/images/chat_index.png) no-repeat; text-align:center; line-height:100px;}
+.chat_index a,.chat_index a:visited{ text-decoration:none; color:#767676;}
+.chat_index a:hover{ display:block; width:66px; height:66px; font-family:'Microsoft yahei'; font-size:12px; background:url(/images/chat_index.png) no-repeat 0 -66px; color:#FFF;}
+
+
+
+.chat_indexs{position:fixed; right:13px; bottom:80px;}
+.chat_indexs a{ display:block; width:66px; height:66px; font-family:'Microsoft yahei'; font-size:12px; background:url(/images/training.png) no-repeat; text-align:center; line-height:100px;}
+.chat_indexs a,.chat_index a:visited{ text-decoration:none; color:#767676;}
+
